@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60CD48A01B22F7B8000E08EE /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CD489F1B22F7B8000E08EE /* CalculatorBrain.swift */; };
 		60D54C711B19A9E90098D056 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D54C701B19A9E90098D056 /* AppDelegate.swift */; };
 		60D54C731B19A9E90098D056 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D54C721B19A9E90098D056 /* ViewController.swift */; };
 		60D54C761B19A9E90098D056 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D54C741B19A9E90098D056 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60CD489F1B22F7B8000E08EE /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		60D54C6B1B19A9E90098D056 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D54C6F1B19A9E90098D056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60D54C701B19A9E90098D056 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				60D54C771B19A9E90098D056 /* Images.xcassets */,
 				60D54C791B19A9E90098D056 /* LaunchScreen.xib */,
 				60D54C6E1B19A9E90098D056 /* Supporting Files */,
+				60CD489F1B22F7B8000E08EE /* CalculatorBrain.swift */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CD48A01B22F7B8000E08EE /* CalculatorBrain.swift in Sources */,
 				60D54C731B19A9E90098D056 /* ViewController.swift in Sources */,
 				60D54C711B19A9E90098D056 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				60D54C8C1B19A9E90098D056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60D54C8D1B19A9E90098D056 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				60D54C8F1B19A9E90098D056 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

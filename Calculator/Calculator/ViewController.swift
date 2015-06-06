@@ -15,6 +15,8 @@ class ViewController: UIViewController {
 
     var useIsInMiddleOfTypingANumber = false
     
+    var brain = CalculatorBrain()
+    
     @IBAction func displayDigit(sender: UIButton) {
         let digit = sender.currentTitle!
         println("digit = \(digit)")
@@ -31,12 +33,16 @@ class ViewController: UIViewController {
             enter()
         }
         
-        let operation = sender.currentTitle!
-        switch operation{
-            case "C":
-                numberStack.removeAll(keepCapacity: false)
-                displayValue = 0
-                break
+        if let operation = sender.currentTitle{
+            if let result = brain.performOperation(operation){
+                displayValue = result
+            }
+        }
+//        switch operation{
+//            case "C":
+//                numberStack.removeAll(keepCapacity: false)
+//                displayValue = 0
+//                break
 //            case "±":
 //
 //            case "%":
@@ -45,19 +51,19 @@ class ViewController: UIViewController {
 
             
         
-            case "×":
-                performOperation{$0 * $1}
-            case "÷":
-                performOperation{$1 / $0}
-            case "−":
-                performOperation{$1 - $0}
-            case "+":
-                performOperation{$0 + $1}
-            case "√":
-                performOperation{sqrt($0)}
-            default:
-                break
-        }
+//            case "×":
+//                performOperation{$0 * $1}
+//            case "÷":
+//                performOperation{$1 / $0}
+//            case "−":
+//                performOperation{$1 - $0}
+//            case "+":
+//                performOperation{$0 + $1}
+//            case "√":
+//                performOperation{sqrt($0)}
+//            default:
+//                break
+//        }
     }
     
     func performOperation(operation: (Double, Double) ->Double){
@@ -82,8 +88,13 @@ class ViewController: UIViewController {
 
     @IBAction func enter() {
         useIsInMiddleOfTypingANumber = false
-        numberStack.append(displayValue)
-        println("\(numberStack)")
+//        numberStack.append(displayValue)
+//        println("\(numberStack)")
+        if let result = brain.pushOperand(displayValue){
+            displayValue = result
+        }else{
+            displayValue = 0
+        }
     }
     
     var displayValue:Double{
