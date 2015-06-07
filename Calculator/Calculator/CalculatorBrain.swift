@@ -30,6 +30,28 @@ class CalculatorBrain{
         
     }
     
+    typealias PropertyList = AnyObject
+    
+    var program : PropertyList{//guaranteed to be PropertyList
+        get{
+            return opsStack.map{$0.description}
+        }
+        set{
+            if let opSymbols = newValue as? Array<String>{
+                var newOpstacks = [Op]()
+                for opSymbol in opSymbols{
+                    if let op = knowsOps[opSymbol]{
+                        newOpstacks.append(op)
+                    }else if let operand = NSNumberFormatter().numberFromString(opSymbol)?.doubleValue{
+                        newOpstacks.append(Op.Operand(operand))
+                    }
+                }
+                opsStack = newOpstacks
+            }
+        }
+        
+    }
+    
     init(){
         knowsOps["×"] = Op.BinaryOperation("×", *)
         knowsOps["÷"] = Op.BinaryOperation("÷"){$1 / $0}
