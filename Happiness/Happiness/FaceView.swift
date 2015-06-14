@@ -27,7 +27,7 @@ class FaceView: UIView {
     }
     
     var faceRadius : CGFloat{
-        return min(bounds.width, bounds.height) / 2 * 0.90
+        return min(bounds.width, bounds.height) / 2 * scale
     }
     
     var smileless : Double = 0.75{didSet{setNeedsDisplay()}}
@@ -46,6 +46,15 @@ class FaceView: UIView {
     }
     
     weak var dataSource : FaceViewDataSource?
+    
+    func scale(gesture : UIPinchGestureRecognizer){
+        if gesture.state == .Changed{
+            scale *= gesture.scale
+            gesture.scale = 1
+            print("\(scale)")
+        }
+
+    }
     
     private func bezierPathForEye(whichEye:Eye) ->UIBezierPath{
         let eyeRadius = faceRadius / Scaleing.FaceRadiusToEyeRadiusRatio
