@@ -8,10 +8,18 @@
 
 import UIKit
 
+protocol FaceViewDataSource : class{
+    func faceViewForDataSource(sender:FaceView) ->Double?
+}
+
+@IBDesignable
 class FaceView: UIView {
 
+    @IBInspectable
     var lineWidth : CGFloat = 3{didSet{setNeedsDisplay()}}
+    @IBInspectable
     var color : UIColor = UIColor.blueColor(){didSet{setNeedsDisplay()}}
+    @IBInspectable
     var scale : CGFloat = 0.90{didSet{setNeedsDisplay()}}
     
     var faceCenter : CGPoint{
@@ -36,6 +44,9 @@ class FaceView: UIView {
     enum Eye{
         case LEFT,RIGHT
     }
+    
+    weak var dataSource : FaceViewDataSource?
+    
     private func bezierPathForEye(whichEye:Eye) ->UIBezierPath{
         let eyeRadius = faceRadius / Scaleing.FaceRadiusToEyeRadiusRatio
         let eyeVerticalOffset = faceRadius / Scaleing.FaceRadiusToEyeOffsetRatio
@@ -86,6 +97,7 @@ class FaceView: UIView {
         facePath.stroke()
         bezierPathForEye(Eye.LEFT)
         bezierPathForEye(Eye.RIGHT)
+        smileless = dataSource?.faceViewForDataSource(self) ?? 0.0
         bezierPathForSmile(smileless)
         
     }
