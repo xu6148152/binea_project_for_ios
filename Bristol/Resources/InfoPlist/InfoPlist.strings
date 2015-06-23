@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  Bristol
+
+  Created by Gary Wong on 5/14/15.
+  Copyright (c) 2015 Zepp US Inc. All rights reserved.
+*/
+
+CFBundleDisplayName = "Zepp TV";
+CFBundleName = "Zepp TV";
+NSHumanReadableCopyright = "Copyright © 2015 Zepp US Inc.";

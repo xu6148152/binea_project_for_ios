@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0700"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4ED952841A5935A40029C0AC"
+               BuildableName = "mogenerator"
+               BlueprintName = "mogenerator"
+               ReferencedContainer = "container:Bristol.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4EED1D9D1A1C9B190078465C"
+               BuildableName = "BristolTest.xctest"
+               BlueprintName = "BristolTest"
+               ReferencedContainer = "container:Bristol.xcodeproj">
+            </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "BS1UserRequestTest/testMeProfileRequest">
+               </Test>
+               <Test
+                  Identifier = "BS1UserRequestTest/testMeUpdateProfileRequest">
+               </Test>
+               <Test
+                  Identifier = "BS1UserRequestTest/testUserEventsRequest">
+               </Test>
+               <Test
+                  Identifier = "BS1UserRequestTest/testUserFollowersRequest">
+               </Test>
+               <Test
+                  Identifier = "BS1UserRequestTest/testUserFollowingRequest">
+               </Test>
+               <Test
+                  Identifier = "BS1UserRequestTest/testUserHighlightsRequest">
+               </Test>
+               <Test
+                  Identifier = "BS1UserRequestTest/testUserTeamsRequest">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4ED952841A5935A40029C0AC"
+            BuildableName = "mogenerator"
+            BlueprintName = "mogenerator"
+            ReferencedContainer = "container:Bristol.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4ED952841A5935A40029C0AC"
+            BuildableName = "mogenerator"
+            BlueprintName = "mogenerator"
+            ReferencedContainer = "container:Bristol.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4ED952841A5935A40029C0AC"
+            BuildableName = "mogenerator"
+            BlueprintName = "mogenerator"
+            ReferencedContainer = "container:Bristol.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

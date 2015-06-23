@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Zepp users can log in directly via Facebook, or create an account with another email address."; ObjectID = "4MB-UK-Xgp"; */
+"4MB-UK-Xgp.text" = "Zepp 用户可以通过 Facebook 直接登录，或者使用另一个电子邮件地址创建帐户。";
+
+/* Class = "UIButton"; normalTitle = "LOG IN VIA FACEBOOK"; ObjectID = "9O3-l3-y19"; */
+"9O3-l3-y19.normalTitle" = "通过 Facebook 登录";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "hoH-qo-lBL"; */
+"hoH-qo-lBL.normalTitle" = "取消";

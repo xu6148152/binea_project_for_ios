@@ -1,0 +1,1 @@
+../../../AVFoundationEditor/AVFoundationEditor/Library/Categories/AVPlayerItem+THAdditions.h

@@ -1,0 +1,9 @@
+kernel vec4 multiplyBlendCorner(__sample image, __color color, vec2 inputSize, vec4 corner)
+{
+	vec2 inputCoord = destCoord();
+	vec2 inputCoordNormalized = inputCoord / inputSize;
+	float value = compare(inputCoordNormalized.x - .5, compare(inputCoordNormalized.y - .5, corner.x, corner.w), compare(inputCoordNormalized.y - .5, corner.y, corner.z));
+	vec4 value4 = vec4(value, value, value, value);
+	vec4 colorTmp = compare(value4, vec4(1., 1., 1., 1.), color);
+	return image * colorTmp;
+}

@@ -1,0 +1,9 @@
+kernel vec4 multiplyBlendFrame(__sample image, __color color, vec2 inputSize, vec4 frameNormalized)
+{
+	vec2 inputCoord = destCoord();
+	vec2 inputCoordNormalized = inputCoord / inputSize;
+
+	float value = compare(inputCoordNormalized.x - frameNormalized.x, -1.0, compare(frameNormalized.x + frameNormalized.z - inputCoordNormalized.x, -1.0, compare(inputCoordNormalized.y - frameNormalized.y, -1.0, compare(frameNormalized.y + frameNormalized.w - inputCoordNormalized.y, -1.0, 1.0))));
+	vec4 value4 = vec4(value, value, value, value);
+	return compare(value4, image, image * color);
+}

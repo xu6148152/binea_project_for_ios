@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6246"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BSAuthorizationViewController">
+            <connections>
+                <outlet property="imgViewIcon" destination="kfr-s0-1pU" id="PLS-A7-OO6"/>
+                <outlet property="lblDesc" destination="MCC-mH-jwo" id="pXg-DI-4AM"/>
+                <outlet property="modalView" destination="gpG-Hm-dUb" id="hml-aT-V2J"/>
+                <outlet property="view" destination="sei-Mv-mDx" id="oH6-nh-Ydk"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="sei-Mv-mDx">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="common_popup_accesscamera" translatesAutoresizingMaskIntoConstraints="NO" id="kfr-s0-1pU">
+                    <rect key="frame" x="90" y="20" width="71" height="71"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="71" id="JEx-Ag-xSR"/>
+                        <constraint firstAttribute="width" constant="71" id="iOu-09-imx"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFF-wd-UUn">
+                    <rect key="frame" x="30" y="185" width="190" height="50"/>
+                    <color key="backgroundColor" red="0.81960784313725488" green="0.93333333333333335" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="CW8-7I-b3C"/>
+                        <constraint firstAttribute="width" constant="190" id="npD-ZE-Kvz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-BlackOblique" family="Avenir" pointSize="16"/>
+                    <state key="normal" title="ALLOW ACCESS">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnAllowAccessTapped:" destination="-1" eventType="touchUpInside" id="jKL-FW-foO"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zepp TV needs to acecess to your micro-phone to automatically detect the highlight point." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MCC-mH-jwo">
+                    <rect key="frame" x="15" y="99" width="221" height="78"/>
+                    <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.95999999999999996" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="kfr-s0-1pU" secondAttribute="centerX" id="2zu-PD-aoJ"/>
+                <constraint firstAttribute="trailing" secondItem="MCC-mH-jwo" secondAttribute="trailing" constant="14" id="4mX-zc-Poj"/>
+                <constraint firstAttribute="bottom" secondItem="rFF-wd-UUn" secondAttribute="bottom" constant="15" id="XaG-vW-h3x"/>
+                <constraint firstItem="rFF-wd-UUn" firstAttribute="top" secondItem="MCC-mH-jwo" secondAttribute="bottom" constant="8" id="cKT-hl-P1I"/>
+                <constraint firstItem="kfr-s0-1pU" firstAttribute="top" secondItem="sei-Mv-mDx" secondAttribute="top" constant="20" id="eKX-Eq-Obb"/>
+                <constraint firstItem="MCC-mH-jwo" firstAttribute="leading" secondItem="sei-Mv-mDx" secondAttribute="leading" constant="15" id="rPf-rI-7mg"/>
+                <constraint firstItem="MCC-mH-jwo" firstAttribute="top" secondItem="kfr-s0-1pU" secondAttribute="bottom" constant="8" id="vaP-gH-67Q"/>
+                <constraint firstAttribute="centerX" secondItem="rFF-wd-UUn" secondAttribute="centerX" id="zC2-LM-3Cx"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="725" y="509.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="gpG-Hm-dUb">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="0.0" alpha="0.10000000000000001" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="1PL-M7-tGv" appends="YES" id="kJH-Hp-di7"/>
+            </connections>
+            <point key="canvasLocation" x="1196" y="367"/>
+        </view>
+        <tapGestureRecognizer id="1PL-M7-tGv">
+            <connections>
+                <action selector="modalViewTapped:" destination="-1" id="4gm-3M-bho"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="common_popup_accesscamera" width="71" height="71"/>
+    </resources>
+</document>

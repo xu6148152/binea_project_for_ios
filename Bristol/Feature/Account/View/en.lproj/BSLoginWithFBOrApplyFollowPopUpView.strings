@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Zepp users can log in directly via Facebook, or create an account with another email address."; ObjectID = "4MB-UK-Xgp"; */
+"4MB-UK-Xgp.text" = "Hi Zepp user, you can log in directly via Facebook, or create account with another email address.";
+
+/* Class = "UIButton"; normalTitle = "LOG IN VIA FACEBOOK"; ObjectID = "9O3-l3-y19"; */
+"9O3-l3-y19.normalTitle" = "LOG IN VIA FACEBOOK";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "hoH-qo-lBL"; */
+"hoH-qo-lBL.normalTitle" = "CANCEL";
