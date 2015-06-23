@@ -1,1 +1,0 @@
-../../../AVFoundationEditor/AVFoundationEditor/Library/Categories/AVMutableVideoCompositionLayerInstruction+THAdditions.h

@@ -1,1 +1,0 @@
-PODS_ZPRESTFUL_OTHER_LDFLAGS = -framework "MobileCoreServices" -framework "SystemConfiguration"
