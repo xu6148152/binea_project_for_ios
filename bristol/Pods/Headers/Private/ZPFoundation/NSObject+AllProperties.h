@@ -1,1 +1,0 @@
-../../../ZPFoundation/ZPFoundation/Extensions/Foundation/NSObject+AllProperties.h

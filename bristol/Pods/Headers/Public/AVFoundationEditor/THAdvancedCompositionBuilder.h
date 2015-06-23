@@ -1,1 +1,0 @@
-../../../AVFoundationEditor/AVFoundationEditor/Library/Models/Builders/Private/THAdvancedCompositionBuilder.h

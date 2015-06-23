@@ -1,1 +1,0 @@
-../../../HeapInspector/HeapInspector/HINSPHeapStackTableViewController.h

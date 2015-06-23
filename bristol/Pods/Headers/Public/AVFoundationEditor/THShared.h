@@ -1,1 +1,0 @@
-../../../AVFoundationEditor/AVFoundationEditor/Library/Shared/THShared.h

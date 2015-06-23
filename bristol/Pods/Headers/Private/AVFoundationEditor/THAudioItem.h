@@ -1,1 +1,0 @@
-../../../AVFoundationEditor/AVFoundationEditor/Library/Models/THAudioItem.h

@@ -1,1 +1,0 @@
-../../../AVFoundationEditor/AVFoundationEditor/Library/ViewModels/THVideoTransitionDurationViewModel.h

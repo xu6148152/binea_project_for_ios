@@ -1,1 +1,0 @@
-../../../AVFoundationEditor/AVFoundationEditor/Library/Categories/CALayer+Geometry.h
