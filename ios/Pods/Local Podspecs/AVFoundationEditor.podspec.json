@@ -1,0 +1,25 @@
+{
+  "name": "AVFoundationEditor",
+  "version": "0.0.1",
+  "summary": "iMovie-like demo app from Bob McCune's \"Mastering Video\" talk. http://bobmccune.com/",
+  "homepage": "http://bobmccune.com",
+  "license": ":type => 'MIT', :file => 'LICENSE'",
+  "authors": {
+    "bob mccune": ""
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/52doho/AVFoundationEditor.git",
+    "tag": "v0.0.1"
+  },
+  "source_files": "AVFoundationEditor/Library/**/*.{h,m}",
+  "frameworks": [
+    "AVFoundation",
+    "CoreMedia",
+    "CoreText",
+    "AssetsLibrary"
+  ],
+  "requires_arc": true
+}

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BSUIActionSheet">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y4c-HF-63D" userLabel="Modal View">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FJO-CY-JLb" userLabel="Content View">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sbg-oA-69B">
+                            <rect key="frame" x="0.0" y="532" width="600" height="68"/>
+                            <color key="backgroundColor" red="0.27450980392156865" green="0.27450980392156865" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="68" id="f87-kY-Bvp"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-BlackOblique" family="Avenir" pointSize="16"/>
+                            <state key="normal" title="BUTTON 0">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="Q3d-o1-7ZX"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jND-eI-kE4">
+                            <rect key="frame" x="0.0" y="464" width="600" height="68"/>
+                            <color key="backgroundColor" red="0.23529411764705882" green="0.23529411764705882" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="68" id="MNf-IO-AeC"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="kRg-nL-Kt1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-BlackOblique" family="Avenir" pointSize="16"/>
+                            <state key="normal" title="BUTTON 1">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="kRg-nL-Kt1"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="btnTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="fnW-cN-aWT"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8JE-VU-1Cr">
+                            <rect key="frame" x="0.0" y="396" width="600" height="68"/>
+                            <color key="backgroundColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="68" id="6J2-DO-qNW"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="HYk-87-QTc"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="iKs-Td-3JN"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-BlackOblique" family="Avenir" pointSize="16"/>
+                            <state key="normal" title="BUTTON 2">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="HYk-87-QTc"/>
+                                    <exclude reference="iKs-Td-3JN"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="btnTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="dqw-B3-sLb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8k-UZ-RBA">
+                            <rect key="frame" x="0.0" y="328" width="600" height="68"/>
+                            <color key="backgroundColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="RkG-K0-gPO"/>
+                                <constraint firstAttribute="height" constant="68" id="Ttk-2h-Xky"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="WWj-Ex-VFP"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="eEI-pz-dLz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-BlackOblique" family="Avenir" pointSize="16"/>
+                            <state key="normal" title="BUTTON 3">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="RkG-K0-gPO"/>
+                                    <exclude reference="WWj-Ex-VFP"/>
+                                    <exclude reference="eEI-pz-dLz"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="btnTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="592-BJ-UbC"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u3u-6g-wC9">
+                            <rect key="frame" x="0.0" y="260" width="600" height="68"/>
+                            <color key="backgroundColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="Bfi-V7-2UN"/>
+                                <constraint firstAttribute="height" constant="68" id="NcP-Jp-WBg"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="QGc-tC-mV0"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="R83-e3-kob"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-BlackOblique" family="Avenir" pointSize="16"/>
+                            <state key="normal" title="BUTTON 4">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="Bfi-V7-2UN"/>
+                                    <exclude reference="R83-e3-kob"/>
+                                    <exclude reference="QGc-tC-mV0"/>
+                                </mask>
+                            </variation>
+                            <connections>
+                                <action selector="btnTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="CTA-CJ-nFU"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hPi-oR-VAi" userLabel="Title View">
+                            <rect key="frame" x="0.0" y="160" width="600" height="100"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This action will permanently remove this highlight from Zepp TV, and this cannot be undone. Are you sure you want to proceed?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYn-7C-47f">
+                                    <rect key="frame" x="20" y="20" width="560" height="60"/>
+                                    <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="pYn-7C-47f" secondAttribute="bottom" constant="20" id="T2W-uW-4gm"/>
+                                <constraint firstItem="pYn-7C-47f" firstAttribute="top" secondItem="hPi-oR-VAi" secondAttribute="top" constant="20" id="ZQN-BQ-ZuK"/>
+                                <constraint firstItem="pYn-7C-47f" firstAttribute="leading" secondItem="hPi-oR-VAi" secondAttribute="leading" constant="20" id="gYg-XL-DEh"/>
+                                <constraint firstAttribute="trailing" secondItem="pYn-7C-47f" secondAttribute="trailing" constant="20" id="v5S-Ex-x0j"/>
+                                <constraint firstAttribute="height" priority="750" constant="100" id="v7s-XI-7UV"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="8JE-VU-1Cr" secondAttribute="trailing" id="3U8-rO-CO0"/>
+                        <constraint firstItem="Sbg-oA-69B" firstAttribute="top" secondItem="jND-eI-kE4" secondAttribute="bottom" id="5W8-Ef-atN"/>
+                        <constraint firstAttribute="trailing" secondItem="hPi-oR-VAi" secondAttribute="trailing" id="GnZ-dr-2i5"/>
+                        <constraint firstItem="hPi-oR-VAi" firstAttribute="leading" secondItem="FJO-CY-JLb" secondAttribute="leading" id="IdC-hP-kzR"/>
+                        <constraint firstItem="o8k-UZ-RBA" firstAttribute="leading" secondItem="FJO-CY-JLb" secondAttribute="leading" id="Mwb-UW-ur9"/>
+                        <constraint firstItem="8JE-VU-1Cr" firstAttribute="leading" secondItem="FJO-CY-JLb" secondAttribute="leading" id="NqK-Nf-ffr"/>
+                        <constraint firstAttribute="trailing" secondItem="o8k-UZ-RBA" secondAttribute="trailing" id="Tmb-oa-2rf"/>
+                        <constraint firstItem="o8k-UZ-RBA" firstAttribute="top" secondItem="u3u-6g-wC9" secondAttribute="bottom" id="XBw-FM-wr1"/>
+                        <constraint firstAttribute="trailing" secondItem="u3u-6g-wC9" secondAttribute="trailing" id="Y0U-Sg-Nbi"/>
+                        <constraint firstItem="Sbg-oA-69B" firstAttribute="leading" secondItem="FJO-CY-JLb" secondAttribute="leading" id="YnK-kW-at8"/>
+                        <constraint firstItem="8JE-VU-1Cr" firstAttribute="top" secondItem="o8k-UZ-RBA" secondAttribute="bottom" id="a14-XI-WDd"/>
+                        <constraint firstItem="jND-eI-kE4" firstAttribute="leading" secondItem="FJO-CY-JLb" secondAttribute="leading" id="cJo-Ic-T43"/>
+                        <constraint firstItem="u3u-6g-wC9" firstAttribute="leading" secondItem="FJO-CY-JLb" secondAttribute="leading" id="gz6-xt-rgi"/>
+                        <constraint firstAttribute="trailing" secondItem="Sbg-oA-69B" secondAttribute="trailing" id="hjw-wt-8aX"/>
+                        <constraint firstAttribute="trailing" secondItem="jND-eI-kE4" secondAttribute="trailing" id="iR3-mc-dws"/>
+                        <constraint firstItem="jND-eI-kE4" firstAttribute="top" secondItem="8JE-VU-1Cr" secondAttribute="bottom" id="l4b-B9-D6i"/>
+                        <constraint firstItem="u3u-6g-wC9" firstAttribute="top" secondItem="hPi-oR-VAi" secondAttribute="bottom" id="oxW-Jx-WpB"/>
+                        <constraint firstAttribute="bottom" secondItem="Sbg-oA-69B" secondAttribute="bottom" id="pP3-dc-D0p"/>
+                        <constraint firstAttribute="bottom" secondItem="hPi-oR-VAi" secondAttribute="bottom" constant="194" id="woo-VR-gLb"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="woo-VR-gLb"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="j8J-CO-jHX" appends="YES" id="EYl-RA-6nm"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FJO-CY-JLb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="KFX-xT-wnz"/>
+                <constraint firstAttribute="trailing" secondItem="Y4c-HF-63D" secondAttribute="trailing" id="RRQ-iH-uf5"/>
+                <constraint firstAttribute="bottom" secondItem="FJO-CY-JLb" secondAttribute="bottom" id="TFx-nR-bKV"/>
+                <constraint firstItem="Y4c-HF-63D" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aGL-l1-SeH"/>
+                <constraint firstAttribute="bottom" secondItem="Y4c-HF-63D" secondAttribute="bottom" id="cD4-9U-1LL"/>
+                <constraint firstItem="Y4c-HF-63D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cez-Y7-c9t"/>
+                <constraint firstItem="FJO-CY-JLb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hOw-BT-krU"/>
+                <constraint firstAttribute="trailing" secondItem="FJO-CY-JLb" secondAttribute="trailing" id="muz-ds-MbK"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="btn0" destination="Sbg-oA-69B" id="bS6-ZP-Vdf"/>
+                <outlet property="btn1" destination="jND-eI-kE4" id="4Hp-rL-a9B"/>
+                <outlet property="btn2" destination="8JE-VU-1Cr" id="Opg-fh-Hxa"/>
+                <outlet property="btn3" destination="o8k-UZ-RBA" id="peX-78-mAu"/>
+                <outlet property="btn4" destination="u3u-6g-wC9" id="l1s-JP-clJ"/>
+                <outlet property="contentView" destination="FJO-CY-JLb" id="NVK-AX-JFH"/>
+                <outlet property="contentViewTopConstraint" destination="KFX-xT-wnz" id="YjJ-wS-w0F"/>
+                <outlet property="lblTitle" destination="pYn-7C-47f" id="T6F-eD-qZO"/>
+                <outlet property="modalView" destination="Y4c-HF-63D" id="Afr-Ic-NYc"/>
+                <outlet property="titleView" destination="hPi-oR-VAi" id="ZrH-jN-pbd"/>
+                <outlet property="titleViewHeightConstraint" destination="v7s-XI-7UV" id="VvV-Xn-MT7"/>
+            </connections>
+        </view>
+        <tapGestureRecognizer id="j8J-CO-jHX">
+            <connections>
+                <action selector="tapGestureTapped:" destination="iN0-l3-epB" id="B4A-Ef-bHR"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

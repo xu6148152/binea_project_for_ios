@@ -1,0 +1,168 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "02d-Pj-K1L"; */
+"02d-Pj-K1L.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "REQUIRED"; ObjectID = "0Ju-nI-fjN"; */
+"0Ju-nI-fjN.placeholder" = "必填项";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "1dD-wy-76b"; */
+"1dD-wy-76b.text" = "1";
+
+/* Class = "UILabel"; text = "CHANGE"; ObjectID = "1m3-6M-kAZ"; */
+"1m3-6M-kAZ.text" = "更改";
+
+/* Class = "UIButton"; normalTitle = "12"; ObjectID = "20O-Ic-tej"; */
+"20O-Ic-tej.normalTitle" = "12";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "36I-en-Wl8"; */
+"36I-en-Wl8.text" = "用户名";
+
+/* Class = "UILabel"; text = "EVERYONE"; ObjectID = "4Ml-or-iap"; */
+"4Ml-or-iap.text" = "任何人";
+
+/* Class = "UILabel"; text = "Current"; ObjectID = "4nC-eP-m7L"; */
+"4nC-eP-m7L.text" = "Current";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "6Rg-Ak-gTj"; */
+"6Rg-Ak-gTj.title" = "Title";
+
+/* Class = "UILabel"; text = "Left a comment: Dude, that was awesome! Long comment Left a comment: Dude, that was awesome! Long comment Left a comment: Dude, that was awesome! Long comment"; ObjectID = "8jG-KB-2Ae"; */
+"8jG-KB-2Ae.text" = "Left a comment: Dude, that was awesome! Long comment Left a comment: Dude, that was awesome! Long comment Left a comment: Dude, that was awesome! Long comment";
+
+/* Class = "UILabel"; text = "Confirm"; ObjectID = "Af6-Pu-mLN"; */
+"Af6-Pu-mLN.text" = "确认";
+
+/* Class = "UILabel"; text = "PRIVACY"; ObjectID = "BTz-N7-cYK"; */
+"BTz-N7-cYK.text" = "隐私";
+
+/* Class = "UILabel"; text = "AUTO-PLAY VIDEO IN FEED"; ObjectID = "F2A-XQ-7ej"; */
+"F2A-XQ-7ej.text" = "自动播放视频";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "ILt-UL-NSQ"; */
+"ILt-UL-NSQ.text" = "密码";
+
+/* Class = "UILabel"; text = "AUTO-PLAY AUDIO IN FEED"; ObjectID = "Iv1-3i-StQ"; */
+"Iv1-3i-StQ.text" = "自动播放声音";
+
+/* Class = "UILabel"; text = "LOG OUT"; ObjectID = "KxU-YM-yG0"; */
+"KxU-YM-yG0.text" = "退出";
+
+/* Class = "UILabel"; text = "142K"; ObjectID = "MKY-kn-Ec7"; */
+"MKY-kn-Ec7.text" = "142K";
+
+/* Class = "UILabel"; text = "VIDEO PLAY CONTROL"; ObjectID = "NQq-xV-4h9"; */
+"NQq-xV-4h9.text" = "视频播放控制";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PJf-LU-2EJ"; */
+"PJf-LU-2EJ.text" = "Label";
+
+/* Class = "UILabel"; text = "New"; ObjectID = "Qb7-uu-1NN"; */
+"Qb7-uu-1NN.text" = "New";
+
+/* Class = "UILabel"; text = "PEOPLE I FOLLOW"; ObjectID = "Ulz-9k-Uwu"; */
+"Ulz-9k-Uwu.text" = "我关注的人";
+
+/* Class = "UILabel"; text = "CREATE A NEW TEAM"; ObjectID = "VWL-PJ-KLr"; */
+"VWL-PJ-KLr.text" = "创建新团队";
+
+/* Class = "UIButton"; normalTitle = "FOLLOWERS"; ObjectID = "VeO-He-TJP"; */
+"VeO-He-TJP.normalTitle" = "关注者";
+
+/* Class = "UILabel"; text = "You have 10 Facebook friends on ZPPP TV."; ObjectID = "VsH-2w-kEU"; */
+"VsH-2w-kEU.text" = "You have 10 Facebook friends on ZPPP TV.";
+
+/* Class = "UILabel"; text = "San Francisco"; ObjectID = "W4J-3T-gUK"; */
+"W4J-3T-gUK.text" = "San Francisco";
+
+/* Class = "UIButton"; normalTitle = "MIMMUZ"; ObjectID = "Wxt-NK-WPv"; */
+"Wxt-NK-WPv.normalTitle" = "MIMMUZ";
+
+/* Class = "UIButton"; normalTitle = "Updating Location..."; ObjectID = "Z5c-bG-h1l"; */
+"Z5c-bG-h1l.normalTitle" = "正在更新位置...";
+
+/* Class = "UILabel"; text = "PRIVATE ACCOUNT"; ObjectID = "Zcz-ur-9Ri"; */
+"Zcz-ur-9Ri.text" = "私人帐户";
+
+/* Class = "UILabel"; text = "17"; ObjectID = "bSE-mJ-vm4"; */
+"bSE-mJ-vm4.text" = "17";
+
+/* Class = "UITableViewSection"; footerTitle = "  "; ObjectID = "dYZ-Wo-Rm9"; */
+"dYZ-Wo-Rm9.footerTitle" = "  ";
+
+/* Class = "UIButton"; normalTitle = "IGNORE"; ObjectID = "ePY-Dx-hmQ"; */
+"ePY-Dx-hmQ.normalTitle" = "忽略";
+
+/* Class = "UITextField"; placeholder = "Find a location"; ObjectID = "fge-1W-QiY"; */
+"fge-1W-QiY.placeholder" = "查找位置";
+
+/* Class = "UILabel"; text = "EDIT MY PROFILE"; ObjectID = "fuO-iG-Fyf"; */
+"fuO-iG-Fyf.text" = "编辑我的个人资料";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "gKg-d3-vKa"; */
+"gKg-d3-vKa.text" = "邮箱";
+
+/* Class = "UILabel"; text = "REQUIRED"; ObjectID = "gsM-0k-TBC"; */
+"gsM-0k-TBC.text" = "必填项";
+
+/* Class = "UIButton"; normalTitle = "999"; ObjectID = "h0L-f8-daz"; */
+"h0L-f8-daz.normalTitle" = "999";
+
+/* Class = "UILabel"; text = "You have no Facebook friend on ZPPP TV."; ObjectID = "h3a-Ka-b1I"; */
+"h3a-Ka-b1I.text" = "You have no Facebook friend on ZPPP TV.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "het-JO-WL6"; */
+"het-JO-WL6.text" = "Label";
+
+/* Class = "UILabel"; text = "PUBLIC PROFILE"; ObjectID = "i22-ZC-H55"; */
+"i22-ZC-H55.text" = "公开个人资料";
+
+/* Class = "UILabel"; text = "FIND PEOPLE TO FOLLOW"; ObjectID = "jLW-IB-YKq"; */
+"jLW-IB-YKq.text" = "查找要关注的人";
+
+/* Class = "UIButton"; normalTitle = "120"; ObjectID = "jmk-ex-HE5"; */
+"jmk-ex-HE5.normalTitle" = "120";
+
+/* Class = "UIButton"; normalTitle = "FOLLOWING"; ObjectID = "l1Z-bw-AFx"; */
+"l1Z-bw-AFx.normalTitle" = "正在关注";
+
+/* Class = "UILabel"; text = "You have been invited to join this team."; ObjectID = "ot4-V2-FfQ"; */
+"ot4-V2-FfQ.text" = "You have been invited to join this team.";
+
+/* Class = "UINavigationItem"; title = "TEAM LOCATION"; ObjectID = "oyC-LS-H7W"; */
+"oyC-LS-H7W.title" = "团队位置";
+
+/* Class = "UILabel"; text = "LOOPING VIDEO IN FEED"; ObjectID = "qRU-aN-zfx"; */
+"qRU-aN-zfx.text" = "循环播放视频";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qY8-5Z-ubv"; */
+"qY8-5Z-ubv.text" = "Label";
+
+/* Class = "UILabel"; text = "ALLOW COMMENTS"; ObjectID = "rbY-7k-ruZ"; */
+"rbY-7k-ruZ.text" = "允许评论";
+
+/* Class = "UIButton"; normalTitle = "110"; ObjectID = "t76-jk-ZAf"; */
+"t76-jk-ZAf.normalTitle" = "110";
+
+/* Class = "UILabel"; text = "则将字体改为这样。Roman characters the. 如果遇到中文，则将字体改为这样。"; ObjectID = "tKi-iS-F9N"; */
+"tKi-iS-F9N.text" = "则将字体改为这样。Roman characters the. 如果遇到中文，则将字体改为这样。";
+
+/* Class = "UIButton"; normalTitle = "JOIN"; ObjectID = "tzE-4k-IQg"; */
+"tzE-4k-IQg.normalTitle" = "加入";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "uDU-2D-mPY"; */
+"uDU-2D-mPY.text" = "名称";
+
+/* Class = "UILabel"; text = "Favourite Sports"; ObjectID = "vUa-PM-i3Y"; */
+"vUa-PM-i3Y.text" = "添加收藏运动";
+
+/* Class = "UILabel"; text = "TAP TO PLAY FULL SCREEN"; ObjectID = "vmy-ec-OTv"; */
+"vmy-ec-OTv.text" = "点击全屏播放";
+
+/* Class = "UIButton"; normalTitle = "FOLLOW ALL"; ObjectID = "wAw-z2-cfx"; */
+"wAw-z2-cfx.normalTitle" = "关注所有";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "xPQ-ef-lPA"; */
+"xPQ-ef-lPA.text" = "位置";
+
+/* Class = "UILabel"; text = "Cycling, Basketball, Golf"; ObjectID = "zO3-gs-x04"; */
+"zO3-gs-x04.text" = "Cycling, Basketball, Golf";

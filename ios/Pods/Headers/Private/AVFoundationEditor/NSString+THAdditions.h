@@ -1,0 +1,1 @@
+../../../AVFoundationEditor/AVFoundationEditor/Library/Categories/NSString+THAdditions.h

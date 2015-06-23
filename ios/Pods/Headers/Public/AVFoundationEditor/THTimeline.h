@@ -1,0 +1,1 @@
+../../../AVFoundationEditor/AVFoundationEditor/Library/Models/THTimeline.h

@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleDisplayName = "Golf 3";
+CFBundleName = "Golf 3";
+NSHumanReadableCopyright = "Copyright © 2014 Zepp US Inc.";
+CFBundleShortVersionString = "3.0";

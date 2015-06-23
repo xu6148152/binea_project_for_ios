@@ -1,0 +1,1 @@
+../../../AVFoundationEditor/AVFoundationEditor/Library/AVFoundationEditor.h

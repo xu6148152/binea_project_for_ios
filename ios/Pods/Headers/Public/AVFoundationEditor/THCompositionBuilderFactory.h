@@ -1,0 +1,1 @@
+../../../AVFoundationEditor/AVFoundationEditor/Library/Models/Builders/THCompositionBuilderFactory.h

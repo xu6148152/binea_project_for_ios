@@ -1,0 +1,75 @@
+
+/* Class = "UIButton"; normalTitle = "POST"; ObjectID = "25q-hf-tva"; */
+"25q-hf-tva.normalTitle" = "发布";
+
+/* Class = "UILabel"; text = "Tag a team"; ObjectID = "2Pv-uN-hzp"; */
+"2Pv-uN-hzp.text" = "选择团队";
+
+/* Class = "UISearchBar"; placeholder = "Find a location or event"; ObjectID = "54t-fS-a4e"; */
+"54t-fS-a4e.placeholder" = "Find a location or event";
+
+/* Class = "UILabel"; text = "NO EFFECT"; ObjectID = "5hO-e1-fVf"; */
+"5hO-e1-fVf.text" = "无特效";
+
+/* Class = "UILabel"; text = "CHOOSE A SPORT"; ObjectID = "6GB-9r-ibm"; */
+"6GB-9r-ibm.text" = "选择运动";
+
+/* Class = "UILabel"; text = "Add location"; ObjectID = "B11-BV-BH8"; */
+"B11-BV-BH8.text" = "添加位置";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "BAk-lF-KqW"; */
+"BAk-lF-KqW.normalTitle" = "继续";
+
+/* Class = "UILabel"; text = "ADD SPORTS"; ObjectID = "Hir-Xu-Mea"; */
+"Hir-Xu-Mea.text" = "添加运动";
+
+/* Class = "UIButton"; normalTitle = "POST"; ObjectID = "Idh-y0-xrG"; */
+"Idh-y0-xrG.normalTitle" = "发布";
+
+/* Class = "UILabel"; text = "Your highlight point"; ObjectID = "KHm-En-96e"; */
+"KHm-En-96e.text" = "Your highlight point";
+
+/* Class = "UILabel"; text = "Drag the green bar to adjust duration"; ObjectID = "NSJ-8u-dvY"; */
+"NSJ-8u-dvY.text" = "Drag the green bar to adjust duration";
+
+/* Class = "UILabel"; text = "Locating the most excited moment"; ObjectID = "Rkg-gt-dej"; */
+"Rkg-gt-dej.text" = "Locating the most excited moment";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "SYe-cn-IeG"; */
+"SYe-cn-IeG.normalTitle" = "继续";
+
+/* Class = "UINavigationItem"; title = "PICK A TEAM"; ObjectID = "TBU-57-2kB"; */
+"TBU-57-2kB.title" = "选择团队";
+
+/* Class = "UILabel"; text = "Soccer"; ObjectID = "ZOd-9x-jZs"; */
+"ZOd-9x-jZs.text" = "Soccer";
+
+/* Class = "UIButton"; normalTitle = "Add Sports"; ObjectID = "Zxx-EW-IYC"; */
+"Zxx-EW-IYC.normalTitle" = "添加运动";
+
+/* Class = "UINavigationItem"; title = "PICK A LOCATION"; ObjectID = "a5V-S8-owJ"; */
+"a5V-S8-owJ.title" = "选择位置";
+
+/* Class = "UINavigationItem"; title = "Choose a Song"; ObjectID = "ac9-ut-6t5"; */
+"ac9-ut-6t5.title" = "Choose a Song";
+
+/* Class = "UINavigationItem"; title = "Choose a Song"; ObjectID = "err-mg-RcE"; */
+"err-mg-RcE.title" = "Choose a Song";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "fEe-vc-ra0"; */
+"fEe-vc-ra0.text" = "00:00:00";
+
+/* Class = "UILabel"; text = "Magically, we have picked the potential most exciting moment in your highlight."; ObjectID = "gIx-BF-NWq"; */
+"gIx-BF-NWq.text" = "Magically, we have picked the potential most exciting moment in your highlight.";
+
+/* Class = "UIButton"; normalTitle = "Location"; ObjectID = "hJb-Js-KaZ"; */
+"hJb-Js-KaZ.normalTitle" = "Location";
+
+/* Class = "UILabel"; text = "Drag here to relocate highlight on timeline"; ObjectID = "hTw-XW-zCR"; */
+"hTw-XW-zCR.text" = "Drag here to relocate highlight on timeline";
+
+/* Class = "UILabel"; text = "Also share to"; ObjectID = "rRH-mG-A7F"; */
+"rRH-mG-A7F.text" = "同时分享到";
+
+/* Class = "UILabel"; text = "Video must be 5+ seconds long"; ObjectID = "ypT-N8-8Rl"; */
+"ypT-N8-8Rl.text" = "Video must be 5+ seconds long";
