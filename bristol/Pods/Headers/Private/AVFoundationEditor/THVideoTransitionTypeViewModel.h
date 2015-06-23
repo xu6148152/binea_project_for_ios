@@ -1,0 +1,1 @@
+../../../AVFoundationEditor/AVFoundationEditor/Library/ViewModels/THVideoTransitionTypeViewModel.h
