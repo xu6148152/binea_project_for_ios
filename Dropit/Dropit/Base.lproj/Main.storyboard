@@ -16,18 +16,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IH6-aD-C2d">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IH6-aD-C2d" customClass="BezierPathsView" customModule="Dropit" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="TJT-U5-Fh0" appends="YES" id="ceF-Sw-kVa"/>
+                                    <outletCollection property="gestureRecognizers" destination="tF8-3N-79E" appends="YES" id="UlH-99-75L"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IH6-aD-C2d" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0LZ-21-LHa"/>
+                            <constraint firstItem="IH6-aD-C2d" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="lrE-sg-BJE"/>
+                            <constraint firstItem="IH6-aD-C2d" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="nKp-z3-n32"/>
+                            <constraint firstAttribute="trailing" secondItem="IH6-aD-C2d" secondAttribute="trailing" id="y2Z-AC-E68"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="gameView" destination="IH6-aD-C2d" id="s6p-xV-luN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="TJT-U5-Fh0">
+                    <connections>
+                        <action selector="drop:" destination="BYZ-38-t0r" id="ihy-ym-z1c"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="tF8-3N-79E">
+                    <connections>
+                        <action selector="grabDrop:" destination="BYZ-38-t0r" id="QOs-Kz-2Li"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
         </scene>
     </scenes>
