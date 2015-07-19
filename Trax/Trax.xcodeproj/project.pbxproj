@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		60FFD7621B5A305700EC807E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FFD7611B5A305700EC807E /* AppDelegate.swift */; };
-		60FFD7641B5A305700EC807E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FFD7631B5A305700EC807E /* ViewController.swift */; };
+		60FFD7641B5A305700EC807E /* GPXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FFD7631B5A305700EC807E /* GPXViewController.swift */; };
 		60FFD7671B5A305700EC807E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60FFD7651B5A305700EC807E /* Main.storyboard */; };
 		60FFD7691B5A305700EC807E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60FFD7681B5A305700EC807E /* Images.xcassets */; };
 		60FFD76C1B5A305700EC807E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60FFD76A1B5A305700EC807E /* LaunchScreen.xib */; };
 		60FFD7781B5A305700EC807E /* TraxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FFD7771B5A305700EC807E /* TraxTests.swift */; };
+		60FFD7B21B5B898D00EC807E /* GPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FFD7B11B5B898D00EC807E /* GPX.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		60FFD75C1B5A305700EC807E /* Trax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FFD7601B5A305700EC807E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60FFD7611B5A305700EC807E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60FFD7631B5A305700EC807E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60FFD7631B5A305700EC807E /* GPXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXViewController.swift; sourceTree = "<group>"; };
 		60FFD7661B5A305700EC807E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60FFD7681B5A305700EC807E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		60FFD76B1B5A305700EC807E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		60FFD7711B5A305700EC807E /* TraxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TraxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60FFD7761B5A305700EC807E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60FFD7771B5A305700EC807E /* TraxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraxTests.swift; sourceTree = "<group>"; };
+		60FFD7B11B5B898D00EC807E /* GPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPX.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				60FFD7611B5A305700EC807E /* AppDelegate.swift */,
-				60FFD7631B5A305700EC807E /* ViewController.swift */,
+				60FFD7631B5A305700EC807E /* GPXViewController.swift */,
 				60FFD7651B5A305700EC807E /* Main.storyboard */,
 				60FFD75F1B5A305700EC807E /* Supporting Files */,
 			);
@@ -91,6 +93,7 @@
 				60FFD7681B5A305700EC807E /* Images.xcassets */,
 				60FFD76A1B5A305700EC807E /* LaunchScreen.xib */,
 				60FFD7601B5A305700EC807E /* Info.plist */,
+				60FFD7B11B5B898D00EC807E /* GPX.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60FFD7641B5A305700EC807E /* ViewController.swift in Sources */,
+				60FFD7641B5A305700EC807E /* GPXViewController.swift in Sources */,
 				60FFD7621B5A305700EC807E /* AppDelegate.swift in Sources */,
+				60FFD7B21B5B898D00EC807E /* GPX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				60FFD77D1B5A305700EC807E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60FFD77E1B5A305700EC807E /* Build configuration list for PBXNativeTarget "TraxTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				60FFD7801B5A305700EC807E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

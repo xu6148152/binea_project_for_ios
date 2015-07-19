@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Trax" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="GPXViewController" customModule="Trax" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,23 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="aa" translatesAutoresizingMaskIntoConstraints="NO" id="jOh-3v-rGn">
-                                <rect key="frame" x="0.0" y="10" width="600" height="590"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="9jQ-wc-F7H">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="jOh-3v-rGn" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="R4k-KS-3iF"/>
-                            <constraint firstItem="jOh-3v-rGn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="10" id="Y7b-nu-4UB"/>
-                            <constraint firstAttribute="trailing" secondItem="jOh-3v-rGn" secondAttribute="trailing" id="hV6-Z6-33A"/>
-                            <constraint firstItem="jOh-3v-rGn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sDZ-Iz-j3B"/>
+                            <constraint firstAttribute="trailing" secondItem="9jQ-wc-F7H" secondAttribute="trailing" id="6N2-sa-FaV"/>
+                            <constraint firstItem="9jQ-wc-F7H" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="ZIY-dg-85H"/>
+                            <constraint firstItem="9jQ-wc-F7H" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bzl-I4-pBZ"/>
+                            <constraint firstItem="9jQ-wc-F7H" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="kQh-O6-NIC"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="textView" destination="jOh-3v-rGn" id="odH-gx-Rme"/>
+                        <outlet property="mapView" destination="9jQ-wc-F7H" id="8sg-Re-8xd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

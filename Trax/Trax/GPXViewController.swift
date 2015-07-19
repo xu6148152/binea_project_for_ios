@@ -7,10 +7,33 @@
 //
 
 import UIKit
+import MapKit
 
-class ViewController: UIViewController {
+class GPXViewController: UIViewController, MKMapViewDelegate {
 
-    @IBOutlet weak var textView: UITextView!
+    @IBOutlet weak var mapView: MKMapView! {
+        didSet{
+            mapView.mapType = .Satellite
+            mapView.delegate = self
+        }
+    }
+    
+    var gpxURL: NSURL? {
+        didSet{
+            if let url = gpxURL{
+                
+            }
+        }
+    }
+    
+    private func clearWayPoints(){
+        if mapView?.annotations {
+            mapView.removeAnnotation(mapView.annotations as [MKAnnotation])
+        }
+    }
+    
+    private func handleWaypoints(){
+     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +45,7 @@ class ViewController: UIViewController {
         center.addObserverForName(GPXURL.notification, object: appDelete, queue: queue){
             notification in
             if let url = notification?.userInfo?[GPXURL.key] as? NSURL{
-                self.textView.text = "received \(url)"
+                
             }
         }
     }
