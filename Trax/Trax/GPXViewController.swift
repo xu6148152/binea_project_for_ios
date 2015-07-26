@@ -27,9 +27,9 @@ class GPXViewController: UIViewController, MKMapViewDelegate {
     }
     
     private func clearWayPoints(){
-        if mapView?.annotations {
-            mapView.removeAnnotation(mapView.annotations as [MKAnnotation])
-        }
+//        if mapView?.annotations != nil {
+//            mapView.removeAnnotation(mapView.annotations as [MKAnnotation])
+//        }
     }
     
     private func handleWaypoints(){
