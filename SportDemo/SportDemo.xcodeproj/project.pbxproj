@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60D0996D1B6CB15D00FA33A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D0996C1B6CB15D00FA33A6 /* AppDelegate.swift */; };
-		60D099701B6CB15D00FA33A6 /* Soccer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60D0996E1B6CB15D00FA33A6 /* Soccer.xcdatamodeld */; };
-		60D099721B6CB15D00FA33A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099711B6CB15D00FA33A6 /* ViewController.swift */; };
-		60D099751B6CB15D00FA33A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D099731B6CB15D00FA33A6 /* Main.storyboard */; };
-		60D099771B6CB15D00FA33A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D099761B6CB15D00FA33A6 /* Images.xcassets */; };
-		60D0997A1B6CB15D00FA33A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60D099781B6CB15D00FA33A6 /* LaunchScreen.xib */; };
 		60D099861B6CB15D00FA33A6 /* SoccerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099851B6CB15D00FA33A6 /* SoccerTests.swift */; };
-		60D099961B6CB1CA00FA33A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099951B6CB1CA00FA33A6 /* AppDelegate.swift */; };
-		60D099991B6CB1CA00FA33A6 /* Basketball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60D099971B6CB1CA00FA33A6 /* Basketball.xcdatamodeld */; };
-		60D0999B1B6CB1CA00FA33A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D0999A1B6CB1CA00FA33A6 /* ViewController.swift */; };
-		60D0999E1B6CB1CA00FA33A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D0999C1B6CB1CA00FA33A6 /* Main.storyboard */; };
-		60D099A01B6CB1CA00FA33A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D0999F1B6CB1CA00FA33A6 /* Images.xcassets */; };
-		60D099A31B6CB1CA00FA33A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60D099A11B6CB1CA00FA33A6 /* LaunchScreen.xib */; };
 		60D099AF1B6CB1CA00FA33A6 /* BasketballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099AE1B6CB1CA00FA33A6 /* BasketballTests.swift */; };
+		60D099C81B6CB66C00FA33A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099BE1B6CB66C00FA33A6 /* AppDelegate.swift */; };
+		60D099CA1B6CB66C00FA33A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D099C11B6CB66C00FA33A6 /* Main.storyboard */; };
+		60D099CD1B6CB66C00FA33A6 /* Soccer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60D099C51B6CB66C00FA33A6 /* Soccer.xcdatamodeld */; };
+		60D099CE1B6CB66C00FA33A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099C71B6CB66C00FA33A6 /* ViewController.swift */; };
+		60D099DA1B6CB68100FA33A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099D01B6CB68100FA33A6 /* AppDelegate.swift */; };
+		60D099DC1B6CB68100FA33A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D099D31B6CB68100FA33A6 /* Main.storyboard */; };
+		60D099DD1B6CB68100FA33A6 /* Basketball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60D099D51B6CB68100FA33A6 /* Basketball.xcdatamodeld */; };
+		60D099DE1B6CB68100FA33A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D099D71B6CB68100FA33A6 /* Images.xcassets */; };
+		60D099DF1B6CB68100FA33A6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60D099D81B6CB68100FA33A6 /* Info.plist */; };
+		60D099E01B6CB68100FA33A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099D91B6CB68100FA33A6 /* ViewController.swift */; };
+		60D099E51B6CB76F00FA33A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D099E41B6CB76F00FA33A6 /* Images.xcassets */; };
+		60D099E71B6CB77E00FA33A6 /* soccer.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60D099E61B6CB77E00FA33A6 /* soccer.plist */; };
+		60D099F31B6CCEB200FA33A6 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D099EF1B6CCEB200FA33A6 /* Launch.storyboard */; };
+		60D099F41B6CCEB200FA33A6 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D099EF1B6CCEB200FA33A6 /* Launch.storyboard */; };
+		60D099F51B6CCEB200FA33A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D099F21B6CCEB200FA33A6 /* Images.xcassets */; };
+		60D099F61B6CCEB200FA33A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D099F21B6CCEB200FA33A6 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,28 +46,27 @@
 
 /* Begin PBXFileReference section */
 		60D099681B6CB15D00FA33A6 /* Soccer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soccer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		60D0996B1B6CB15D00FA33A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60D0996C1B6CB15D00FA33A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../Soccer/AppDelegate.swift; sourceTree = "<group>"; };
-		60D0996F1B6CB15D00FA33A6 /* Soccer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soccer.xcdatamodel; sourceTree = "<group>"; };
-		60D099711B6CB15D00FA33A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../Soccer/ViewController.swift; sourceTree = "<group>"; };
-		60D099741B6CB15D00FA33A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		60D099761B6CB15D00FA33A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../Soccer/Images.xcassets; sourceTree = "<group>"; };
-		60D099791B6CB15D00FA33A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		60D0997F1B6CB15D00FA33A6 /* SoccerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D099841B6CB15D00FA33A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60D099851B6CB15D00FA33A6 /* SoccerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerTests.swift; sourceTree = "<group>"; };
 		60D099911B6CB1CA00FA33A6 /* Basketball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basketball.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		60D099941B6CB1CA00FA33A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60D099951B6CB1CA00FA33A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../Basketball/AppDelegate.swift; sourceTree = "<group>"; };
-		60D099981B6CB1CA00FA33A6 /* Basketball.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Basketball.xcdatamodel; sourceTree = "<group>"; };
-		60D0999A1B6CB1CA00FA33A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../Basketball/ViewController.swift; sourceTree = "<group>"; };
-		60D0999D1B6CB1CA00FA33A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		60D0999F1B6CB1CA00FA33A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../Basketball/Images.xcassets; sourceTree = "<group>"; };
-		60D099A21B6CB1CA00FA33A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		60D099A81B6CB1CA00FA33A6 /* BasketballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasketballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D099AD1B6CB1CA00FA33A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60D099AE1B6CB1CA00FA33A6 /* BasketballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballTests.swift; sourceTree = "<group>"; };
-		60D099BC1B6CB57400FA33A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60D099BE1B6CB66C00FA33A6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60D099C21B6CB66C00FA33A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60D099C61B6CB66C00FA33A6 /* Soccer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soccer.xcdatamodel; sourceTree = "<group>"; };
+		60D099C71B6CB66C00FA33A6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60D099D01B6CB68100FA33A6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60D099D41B6CB68100FA33A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60D099D61B6CB68100FA33A6 /* Basketball.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Basketball.xcdatamodel; sourceTree = "<group>"; };
+		60D099D71B6CB68100FA33A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60D099D81B6CB68100FA33A6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D099D91B6CB68100FA33A6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60D099E41B6CB76F00FA33A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60D099E61B6CB77E00FA33A6 /* soccer.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = soccer.plist; sourceTree = "<group>"; };
+		60D099EF1B6CCEB200FA33A6 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		60D099F21B6CCEB200FA33A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6D6C1DC140286799D6A2D719 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A5A2868B9D69E663E61F86F6 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC00C303000C395FA836C3C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,9 +137,9 @@
 		60D0993B1B6CAF9600FA33A6 /* SportDemo */ = {
 			isa = PBXGroup;
 			children = (
-				60D099B81B6CB4A300FA33A6 /* Shared */,
-				60D099621B6CB10400FA33A6 /* Basketball */,
-				60D099611B6CB0FA00FA33A6 /* Soccer */,
+				60D099EC1B6CCEB200FA33A6 /* Shared */,
+				60D099CF1B6CB68100FA33A6 /* Basketball */,
+				60D099BD1B6CB66C00FA33A6 /* Soccer */,
 			);
 			path = SportDemo;
 			sourceTree = "<group>";
@@ -148,43 +151,6 @@
 				60D099821B6CB15D00FA33A6 /* SoccerTests */,
 			);
 			path = SportDemoTests;
-			sourceTree = "<group>";
-		};
-		60D099611B6CB0FA00FA33A6 /* Soccer */ = {
-			isa = PBXGroup;
-			children = (
-				60D0996C1B6CB15D00FA33A6 /* AppDelegate.swift */,
-				60D099711B6CB15D00FA33A6 /* ViewController.swift */,
-				60D099731B6CB15D00FA33A6 /* Main.storyboard */,
-				60D099761B6CB15D00FA33A6 /* Images.xcassets */,
-				60D099781B6CB15D00FA33A6 /* LaunchScreen.xib */,
-				60D0996E1B6CB15D00FA33A6 /* Soccer.xcdatamodeld */,
-				60D0996A1B6CB15D00FA33A6 /* Supporting Files */,
-			);
-			path = Soccer;
-			sourceTree = "<group>";
-		};
-		60D099621B6CB10400FA33A6 /* Basketball */ = {
-			isa = PBXGroup;
-			children = (
-				60D099951B6CB1CA00FA33A6 /* AppDelegate.swift */,
-				60D0999A1B6CB1CA00FA33A6 /* ViewController.swift */,
-				60D0999C1B6CB1CA00FA33A6 /* Main.storyboard */,
-				60D0999F1B6CB1CA00FA33A6 /* Images.xcassets */,
-				60D099A11B6CB1CA00FA33A6 /* LaunchScreen.xib */,
-				60D099971B6CB1CA00FA33A6 /* Basketball.xcdatamodeld */,
-				60D099931B6CB1CA00FA33A6 /* Supporting Files */,
-			);
-			path = Basketball;
-			sourceTree = "<group>";
-		};
-		60D0996A1B6CB15D00FA33A6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				60D0996B1B6CB15D00FA33A6 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			path = ../../Soccer;
 			sourceTree = "<group>";
 		};
 		60D099821B6CB15D00FA33A6 /* SoccerTests */ = {
@@ -205,15 +171,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60D099931B6CB1CA00FA33A6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				60D099941B6CB1CA00FA33A6 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			path = ../../Basketball;
-			sourceTree = "<group>";
-		};
 		60D099AB1B6CB1CA00FA33A6 /* BasketballTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,26 +189,93 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60D099B81B6CB4A300FA33A6 /* Shared */ = {
+		60D099BD1B6CB66C00FA33A6 /* Soccer */ = {
 			isa = PBXGroup;
 			children = (
-				60D099BA1B6CB4DE00FA33A6 /* Resources */,
+				60D099E11B6CB6E600FA33A6 /* Resources */,
+				60D099BE1B6CB66C00FA33A6 /* AppDelegate.swift */,
+				60D099C11B6CB66C00FA33A6 /* Main.storyboard */,
+				60D099C51B6CB66C00FA33A6 /* Soccer.xcdatamodeld */,
+				60D099C71B6CB66C00FA33A6 /* ViewController.swift */,
 			);
-			path = Shared;
+			path = Soccer;
 			sourceTree = "<group>";
 		};
-		60D099BA1B6CB4DE00FA33A6 /* Resources */ = {
+		60D099CF1B6CB68100FA33A6 /* Basketball */ = {
 			isa = PBXGroup;
 			children = (
-				60D099BB1B6CB55B00FA33A6 /* Images */,
+				60D099D01B6CB68100FA33A6 /* AppDelegate.swift */,
+				60D099D31B6CB68100FA33A6 /* Main.storyboard */,
+				60D099D51B6CB68100FA33A6 /* Basketball.xcdatamodeld */,
+				60D099D71B6CB68100FA33A6 /* Images.xcassets */,
+				60D099D81B6CB68100FA33A6 /* Info.plist */,
+				60D099D91B6CB68100FA33A6 /* ViewController.swift */,
+			);
+			path = Basketball;
+			sourceTree = "<group>";
+		};
+		60D099E11B6CB6E600FA33A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60D099E21B6CB6E600FA33A6 /* Images */,
+				60D099E31B6CB6E600FA33A6 /* InfoPlist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		60D099BB1B6CB55B00FA33A6 /* Images */ = {
+		60D099E21B6CB6E600FA33A6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				60D099BC1B6CB57400FA33A6 /* Images.xcassets */,
+				60D099E41B6CB76F00FA33A6 /* Images.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		60D099E31B6CB6E600FA33A6 /* InfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				60D099E61B6CB77E00FA33A6 /* soccer.plist */,
+			);
+			path = InfoPlist;
+			sourceTree = "<group>";
+		};
+		60D099EC1B6CCEB200FA33A6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				60D099ED1B6CCEB200FA33A6 /* feature */,
+				60D099F01B6CCEB200FA33A6 /* Resources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		60D099ED1B6CCEB200FA33A6 /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				60D099EE1B6CCEB200FA33A6 /* Main */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		60D099EE1B6CCEB200FA33A6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				60D099EF1B6CCEB200FA33A6 /* Launch.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		60D099F01B6CCEB200FA33A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60D099F11B6CCEB200FA33A6 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60D099F11B6CCEB200FA33A6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				60D099F21B6CCEB200FA33A6 /* Images.xcassets */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -389,9 +413,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60D099751B6CB15D00FA33A6 /* Main.storyboard in Resources */,
-				60D0997A1B6CB15D00FA33A6 /* LaunchScreen.xib in Resources */,
-				60D099771B6CB15D00FA33A6 /* Images.xcassets in Resources */,
+				60D099E51B6CB76F00FA33A6 /* Images.xcassets in Resources */,
+				60D099F51B6CCEB200FA33A6 /* Images.xcassets in Resources */,
+				60D099E71B6CB77E00FA33A6 /* soccer.plist in Resources */,
+				60D099CA1B6CB66C00FA33A6 /* Main.storyboard in Resources */,
+				60D099F31B6CCEB200FA33A6 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,9 +432,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60D0999E1B6CB1CA00FA33A6 /* Main.storyboard in Resources */,
-				60D099A31B6CB1CA00FA33A6 /* LaunchScreen.xib in Resources */,
-				60D099A01B6CB1CA00FA33A6 /* Images.xcassets in Resources */,
+				60D099DF1B6CB68100FA33A6 /* Info.plist in Resources */,
+				60D099F61B6CCEB200FA33A6 /* Images.xcassets in Resources */,
+				60D099DE1B6CB68100FA33A6 /* Images.xcassets in Resources */,
+				60D099DC1B6CB68100FA33A6 /* Main.storyboard in Resources */,
+				60D099F41B6CCEB200FA33A6 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,9 +454,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60D099721B6CB15D00FA33A6 /* ViewController.swift in Sources */,
-				60D099701B6CB15D00FA33A6 /* Soccer.xcdatamodeld in Sources */,
-				60D0996D1B6CB15D00FA33A6 /* AppDelegate.swift in Sources */,
+				60D099CE1B6CB66C00FA33A6 /* ViewController.swift in Sources */,
+				60D099CD1B6CB66C00FA33A6 /* Soccer.xcdatamodeld in Sources */,
+				60D099C81B6CB66C00FA33A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,9 +472,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60D0999B1B6CB1CA00FA33A6 /* ViewController.swift in Sources */,
-				60D099991B6CB1CA00FA33A6 /* Basketball.xcdatamodeld in Sources */,
-				60D099961B6CB1CA00FA33A6 /* AppDelegate.swift in Sources */,
+				60D099E01B6CB68100FA33A6 /* ViewController.swift in Sources */,
+				60D099DD1B6CB68100FA33A6 /* Basketball.xcdatamodeld in Sources */,
+				60D099DA1B6CB68100FA33A6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,40 +502,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		60D099731B6CB15D00FA33A6 /* Main.storyboard */ = {
+		60D099C11B6CB66C00FA33A6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				60D099741B6CB15D00FA33A6 /* Base */,
+				60D099C21B6CB66C00FA33A6 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../../Soccer;
 			sourceTree = "<group>";
 		};
-		60D099781B6CB15D00FA33A6 /* LaunchScreen.xib */ = {
+		60D099D31B6CB68100FA33A6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				60D099791B6CB15D00FA33A6 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = ../../Soccer;
-			sourceTree = "<group>";
-		};
-		60D0999C1B6CB1CA00FA33A6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60D0999D1B6CB1CA00FA33A6 /* Base */,
+				60D099D41B6CB68100FA33A6 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../../Basketball;
-			sourceTree = "<group>";
-		};
-		60D099A11B6CB1CA00FA33A6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60D099A21B6CB1CA00FA33A6 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			path = ../../Basketball;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -604,7 +612,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Soccer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SportDemo/Soccer/Resources/InfoPlist/soccer.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -615,7 +623,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Soccer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SportDemo/Soccer/Resources/InfoPlist/soccer.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -771,25 +779,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		60D0996E1B6CB15D00FA33A6 /* Soccer.xcdatamodeld */ = {
+		60D099C51B6CB66C00FA33A6 /* Soccer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				60D0996F1B6CB15D00FA33A6 /* Soccer.xcdatamodel */,
+				60D099C61B6CB66C00FA33A6 /* Soccer.xcdatamodel */,
 			);
-			currentVersion = 60D0996F1B6CB15D00FA33A6 /* Soccer.xcdatamodel */;
-			name = Soccer.xcdatamodeld;
-			path = ../../Soccer/Soccer.xcdatamodeld;
+			currentVersion = 60D099C61B6CB66C00FA33A6 /* Soccer.xcdatamodel */;
+			path = Soccer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
-		60D099971B6CB1CA00FA33A6 /* Basketball.xcdatamodeld */ = {
+		60D099D51B6CB68100FA33A6 /* Basketball.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				60D099981B6CB1CA00FA33A6 /* Basketball.xcdatamodel */,
+				60D099D61B6CB68100FA33A6 /* Basketball.xcdatamodel */,
 			);
-			currentVersion = 60D099981B6CB1CA00FA33A6 /* Basketball.xcdatamodel */;
-			name = Basketball.xcdatamodeld;
-			path = ../../Basketball/Basketball.xcdatamodeld;
+			currentVersion = 60D099D61B6CB68100FA33A6 /* Basketball.xcdatamodel */;
+			path = Basketball.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
