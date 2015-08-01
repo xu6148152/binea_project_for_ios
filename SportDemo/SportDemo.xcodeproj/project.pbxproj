@@ -63,6 +63,7 @@
 		60D099A81B6CB1CA00FA33A6 /* BasketballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasketballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D099AD1B6CB1CA00FA33A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60D099AE1B6CB1CA00FA33A6 /* BasketballTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketballTests.swift; sourceTree = "<group>"; };
+		60D099BC1B6CB57400FA33A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6D6C1DC140286799D6A2D719 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A5A2868B9D69E663E61F86F6 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC00C303000C395FA836C3C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,7 +134,7 @@
 		60D0993B1B6CAF9600FA33A6 /* SportDemo */ = {
 			isa = PBXGroup;
 			children = (
-				60D099631B6CB11000FA33A6 /* Shared */,
+				60D099B81B6CB4A300FA33A6 /* Shared */,
 				60D099621B6CB10400FA33A6 /* Basketball */,
 				60D099611B6CB0FA00FA33A6 /* Soccer */,
 			);
@@ -175,13 +176,6 @@
 				60D099931B6CB1CA00FA33A6 /* Supporting Files */,
 			);
 			path = Basketball;
-			sourceTree = "<group>";
-		};
-		60D099631B6CB11000FA33A6 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 		60D0996A1B6CB15D00FA33A6 /* Supporting Files */ = {
@@ -236,6 +230,30 @@
 				60D099AD1B6CB1CA00FA33A6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60D099B81B6CB4A300FA33A6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				60D099BA1B6CB4DE00FA33A6 /* Resources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		60D099BA1B6CB4DE00FA33A6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60D099BB1B6CB55B00FA33A6 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		60D099BB1B6CB55B00FA33A6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				60D099BC1B6CB57400FA33A6 /* Images.xcassets */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		7014826CEA71C90C7AC9C786 /* Pods */ = {
@@ -721,6 +739,7 @@
 				60D099891B6CB15D00FA33A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60D0998A1B6CB15D00FA33A6 /* Build configuration list for PBXNativeTarget "SoccerTests" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +748,7 @@
 				60D0998C1B6CB15D00FA33A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60D099B01B6CB1CA00FA33A6 /* Build configuration list for PBXNativeTarget "Basketball" */ = {
 			isa = XCConfigurationList;
@@ -737,6 +757,7 @@
 				60D099B21B6CB1CA00FA33A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60D099B31B6CB1CA00FA33A6 /* Build configuration list for PBXNativeTarget "BasketballTests" */ = {
 			isa = XCConfigurationList;
@@ -745,6 +766,7 @@
 				60D099B51B6CB1CA00FA33A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
