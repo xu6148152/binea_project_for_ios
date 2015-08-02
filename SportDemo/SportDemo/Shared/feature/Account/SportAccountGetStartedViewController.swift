@@ -1,5 +1,5 @@
 //
-//  SportMainViewController.swift
+//  SportAccountGetStartedViewController.swift
 //  SportDemo
 //
 //  Created by Binea Xu on 8/2/15.
@@ -8,28 +8,17 @@
 
 import UIKit
 
-class SportMainViewController: UITabBarController, UITabBarControllerDelegate {
-    
+class SportAccountGetStartedViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.delegate = self
+
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    func showLoginView(){
-        if self.view.window != nil{
-            self.tabBar.hidden = true
-            dispatch_after(when: dispatch_time(DISPATCH_TIME_NOW, (int64_t)(.1 * NSEC_PER_SEC)), queue: dispatch_get_main_queue(), { () -> Void in
-                self.showLoginView()
-            })
-        }else{
-            
-        }
     }
     
 

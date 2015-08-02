@@ -29,6 +29,10 @@
 		60D099F91B6DEC7E00FA33A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D099F71B6DEC7E00FA33A6 /* Main.storyboard */; };
 		60D099FB1B6DED0F00FA33A6 /* SportMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099FA1B6DED0F00FA33A6 /* SportMainViewController.swift */; };
 		60D099FC1B6DED0F00FA33A6 /* SportMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099FA1B6DED0F00FA33A6 /* SportMainViewController.swift */; };
+		60D09A011B6DFBF400FA33A6 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D09A001B6DFBF400FA33A6 /* Account.storyboard */; };
+		60D09A021B6DFBF400FA33A6 /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60D09A001B6DFBF400FA33A6 /* Account.storyboard */; };
+		60D09A041B6E06E500FA33A6 /* SportAccountGetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D09A031B6E06E500FA33A6 /* SportAccountGetStartedViewController.swift */; };
+		60D09A051B6E06E500FA33A6 /* SportAccountGetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D09A031B6E06E500FA33A6 /* SportAccountGetStartedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,8 @@
 		60D099F21B6CCEB200FA33A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		60D099F71B6DEC7E00FA33A6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		60D099FA1B6DED0F00FA33A6 /* SportMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportMainViewController.swift; sourceTree = "<group>"; };
+		60D09A001B6DFBF400FA33A6 /* Account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		60D09A031B6E06E500FA33A6 /* SportAccountGetStartedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportAccountGetStartedViewController.swift; sourceTree = "<group>"; };
 		6D6C1DC140286799D6A2D719 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A5A2868B9D69E663E61F86F6 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC00C303000C395FA836C3C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -293,6 +299,8 @@
 			isa = PBXGroup;
 			children = (
 				60D099FF1B6DFB7700FA33A6 /* DataSource */,
+				60D09A001B6DFBF400FA33A6 /* Account.storyboard */,
+				60D09A031B6E06E500FA33A6 /* SportAccountGetStartedViewController.swift */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -443,6 +451,7 @@
 				60D099F81B6DEC7E00FA33A6 /* Main.storyboard in Resources */,
 				60D099CA1B6CB66C00FA33A6 /* Main.storyboard in Resources */,
 				60D099F31B6CCEB200FA33A6 /* Launch.storyboard in Resources */,
+				60D09A011B6DFBF400FA33A6 /* Account.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,6 +472,7 @@
 				60D099F91B6DEC7E00FA33A6 /* Main.storyboard in Resources */,
 				60D099DC1B6CB68100FA33A6 /* Main.storyboard in Resources */,
 				60D099F41B6CCEB200FA33A6 /* Launch.storyboard in Resources */,
+				60D09A021B6DFBF400FA33A6 /* Account.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60D099FB1B6DED0F00FA33A6 /* SportMainViewController.swift in Sources */,
+				60D09A041B6E06E500FA33A6 /* SportAccountGetStartedViewController.swift in Sources */,
 				60D099CE1B6CB66C00FA33A6 /* ViewController.swift in Sources */,
 				60D099CD1B6CB66C00FA33A6 /* Soccer.xcdatamodeld in Sources */,
 				60D099C81B6CB66C00FA33A6 /* AppDelegate.swift in Sources */,
@@ -500,6 +511,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60D099FC1B6DED0F00FA33A6 /* SportMainViewController.swift in Sources */,
+				60D09A051B6E06E500FA33A6 /* SportAccountGetStartedViewController.swift in Sources */,
 				60D099E01B6CB68100FA33A6 /* ViewController.swift in Sources */,
 				60D099DD1B6CB68100FA33A6 /* Basketball.xcdatamodeld in Sources */,
 				60D099DA1B6CB68100FA33A6 /* AppDelegate.swift in Sources */,
