@@ -24,7 +24,7 @@ class SportMainViewController: UITabBarController, UITabBarControllerDelegate {
     func showLoginView(){
         if self.view.window != nil{
             self.tabBar.hidden = true
-            dispatch_after(when: dispatch_time(DISPATCH_TIME_NOW, (int64_t)(.1 * NSEC_PER_SEC)), queue: dispatch_get_main_queue(), { () -> Void in
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(0.1 * Double(NSEC_PER_SEC))), dispatch_get_main_queue(), { () -> Void in
                 self.showLoginView()
             })
         }else{
