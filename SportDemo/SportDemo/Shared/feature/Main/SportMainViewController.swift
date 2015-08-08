@@ -13,6 +13,7 @@ class SportMainViewController: UITabBarController, UITabBarControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.delegate = self
+        showLoginView()
         // Do any additional setup after loading the view.
     }
 
@@ -22,12 +23,15 @@ class SportMainViewController: UITabBarController, UITabBarControllerDelegate {
     }
     
     func showLoginView(){
-        if self.view.window != nil{
+        if self.view.window == nil{
             self.tabBar.hidden = true
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(0.1 * Double(NSEC_PER_SEC))), dispatch_get_main_queue(), { () -> Void in
                 self.showLoginView()
             })
         }else{
+            presentViewController(SportAccountGetStartedViewController.instanceFromStoryboard(), animated: false, completion: { () -> Void in
+                self.tabBar.hidden = false;
+            })
             
         }
     }

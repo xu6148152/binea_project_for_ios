@@ -2,60 +2,77 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Sport Account Get Started View Controller-->
         <scene sceneID="6Eb-yo-dDb">
             <objects>
-                <viewController id="6Qd-Aw-sqe" customClass="SportAccountGetStartedViewController" customModule="Basketball" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SportAccountGetStartedViewController" id="6Qd-Aw-sqe" customClass="SportAccountGetStartedViewController" customModule="Basketball" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Qxj-DB-2Nl"/>
-                        <viewControllerLayoutGuide type="bottom" id="hUe-Nh-O0l"/>
+                        <viewControllerLayoutGuide type="top" id="zeJ-eb-Wst"/>
+                        <viewControllerLayoutGuide type="bottom" id="aKN-Xx-VB6"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UJW-Hc-Sbz">
+                    <view key="view" contentMode="scaleToFill" id="a0L-Dl-Wfx">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="9Zb-2a-2N0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashscreen_image" translatesAutoresizingMaskIntoConstraints="NO" id="ten-CJ-KzN">
                                 <rect key="frame" x="0.0" y="20" width="600" height="580"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VpJ-4u-rbu">
-                                <rect key="frame" x="0.0" y="20" width="600" height="470"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="z9q-Kn-1w3">
-                                        <rect key="frame" x="220" y="197" width="160" height="76"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="76" id="OO2-me-rQ6"/>
-                                            <constraint firstAttribute="width" constant="160" id="rQp-oE-oF9"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_logo" translatesAutoresizingMaskIntoConstraints="NO" id="fi7-Xx-olk">
+                                <rect key="frame" x="219" y="70" width="162" height="70"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOCCER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vg6-WN-2ax" userLabel="sport_type">
+                                <rect key="frame" x="249" y="145" width="102" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7l-kf-Zot">
+                                <rect key="frame" x="16" y="655" width="568" height="55"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="z9q-Kn-1w3" firstAttribute="centerY" secondItem="VpJ-4u-rbu" secondAttribute="centerY" id="VM4-i6-9AY"/>
-                                    <constraint firstItem="z9q-Kn-1w3" firstAttribute="centerX" secondItem="VpJ-4u-rbu" secondAttribute="centerX" id="lkt-6T-9il"/>
+                                    <constraint firstAttribute="height" constant="55" id="Ycr-k9-nBO"/>
                                 </constraints>
-                            </view>
+                                <state key="normal" title="SIGN IN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dF4-8l-zHN">
+                                <rect key="frame" x="16" y="600" width="568" height="55"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Vuf-94-N95"/>
+                                </constraints>
+                                <state key="normal" title="SIGN UP">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="9Zb-2a-2N0" firstAttribute="leading" secondItem="VpJ-4u-rbu" secondAttribute="leading" id="0wH-9I-fQG"/>
-                            <constraint firstItem="VpJ-4u-rbu" firstAttribute="leading" secondItem="9Zb-2a-2N0" secondAttribute="leading" id="1Ws-59-MzS"/>
-                            <constraint firstItem="VpJ-4u-rbu" firstAttribute="trailing" secondItem="9Zb-2a-2N0" secondAttribute="trailing" id="2Y1-ae-fQo"/>
-                            <constraint firstItem="9Zb-2a-2N0" firstAttribute="bottom" secondItem="hUe-Nh-O0l" secondAttribute="top" id="3A2-zv-7gz"/>
-                            <constraint firstItem="VpJ-4u-rbu" firstAttribute="leading" secondItem="UJW-Hc-Sbz" secondAttribute="leading" id="5ka-bk-54g"/>
-                            <constraint firstItem="hUe-Nh-O0l" firstAttribute="top" secondItem="VpJ-4u-rbu" secondAttribute="bottom" constant="110" id="FHf-7r-c6u"/>
-                            <constraint firstItem="VpJ-4u-rbu" firstAttribute="top" secondItem="Qxj-DB-2Nl" secondAttribute="bottom" id="Qpj-I5-ZcR"/>
-                            <constraint firstItem="VpJ-4u-rbu" firstAttribute="top" secondItem="9Zb-2a-2N0" secondAttribute="top" id="TBc-fy-EOZ"/>
-                            <constraint firstAttribute="trailing" secondItem="VpJ-4u-rbu" secondAttribute="trailing" id="UNc-nP-BuD"/>
-                            <constraint firstItem="9Zb-2a-2N0" firstAttribute="top" secondItem="VpJ-4u-rbu" secondAttribute="top" id="hZi-iP-BGb"/>
-                            <constraint firstItem="9Zb-2a-2N0" firstAttribute="trailing" secondItem="VpJ-4u-rbu" secondAttribute="trailing" id="hqN-ko-PNr"/>
+                            <constraint firstAttribute="trailing" secondItem="ten-CJ-KzN" secondAttribute="trailing" id="3KF-p0-jW0"/>
+                            <constraint firstItem="dF4-8l-zHN" firstAttribute="leading" secondItem="a0L-Dl-Wfx" secondAttribute="leadingMargin" id="7mk-PZ-Lle"/>
+                            <constraint firstItem="aKN-Xx-VB6" firstAttribute="top" secondItem="l7l-kf-Zot" secondAttribute="bottom" constant="-110" id="Afq-wn-z1z"/>
+                            <constraint firstItem="aKN-Xx-VB6" firstAttribute="top" secondItem="ten-CJ-KzN" secondAttribute="bottom" id="D9L-a9-Mzc"/>
+                            <constraint firstAttribute="centerX" secondItem="fi7-Xx-olk" secondAttribute="centerX" id="HIx-Ot-rHc"/>
+                            <constraint firstItem="ten-CJ-KzN" firstAttribute="leading" secondItem="a0L-Dl-Wfx" secondAttribute="leading" id="P31-uR-zGg"/>
+                            <constraint firstItem="fi7-Xx-olk" firstAttribute="top" secondItem="zeJ-eb-Wst" secondAttribute="bottom" constant="50" id="WLq-Wh-dZR"/>
+                            <constraint firstItem="l7l-kf-Zot" firstAttribute="top" secondItem="dF4-8l-zHN" secondAttribute="bottom" id="bkm-aD-pWB"/>
+                            <constraint firstItem="l7l-kf-Zot" firstAttribute="leading" secondItem="a0L-Dl-Wfx" secondAttribute="leadingMargin" id="iZD-Wb-2RO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dF4-8l-zHN" secondAttribute="trailing" id="ja5-Ws-IVV"/>
+                            <constraint firstItem="Vg6-WN-2ax" firstAttribute="top" secondItem="fi7-Xx-olk" secondAttribute="bottom" constant="5" id="oBi-Mj-0b3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="l7l-kf-Zot" secondAttribute="trailing" id="vO4-3u-jy9"/>
+                            <constraint firstItem="ten-CJ-KzN" firstAttribute="top" secondItem="zeJ-eb-Wst" secondAttribute="bottom" id="vVM-WX-JHu"/>
+                            <constraint firstAttribute="centerX" secondItem="Vg6-WN-2ax" secondAttribute="centerX" id="vc3-bN-wF2"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ten-CJ-KzN" secondAttribute="bottom" id="zgJ-qC-zGH"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="1Ws-59-MzS"/>
-                                <exclude reference="2Y1-ae-fQo"/>
-                                <exclude reference="TBc-fy-EOZ"/>
+                                <exclude reference="zgJ-qC-zGH"/>
                             </mask>
                         </variation>
                     </view>
@@ -66,7 +83,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="splash" width="1333" height="2239"/>
         <image name="splash_logo" width="162" height="70"/>
+        <image name="splashscreen_image" width="320" height="568"/>
     </resources>
 </document>
