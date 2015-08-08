@@ -30,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7l-kf-Zot">
-                                <rect key="frame" x="16" y="655" width="568" height="55"/>
+                                <rect key="frame" x="16" y="545" width="568" height="55"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Ycr-k9-nBO"/>
@@ -39,9 +39,12 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="signIn" destination="6Qd-Aw-sqe" eventType="touchUpInside" id="Dx1-dd-79X"/>
+                                </connections>
                             </button>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dF4-8l-zHN">
-                                <rect key="frame" x="16" y="600" width="568" height="55"/>
+                                <rect key="frame" x="16" y="490" width="568" height="55"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Vuf-94-N95"/>
@@ -50,13 +53,16 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="signUp" destination="6Qd-Aw-sqe" eventType="touchUpInside" id="mh0-hy-mg3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ten-CJ-KzN" secondAttribute="trailing" id="3KF-p0-jW0"/>
                             <constraint firstItem="dF4-8l-zHN" firstAttribute="leading" secondItem="a0L-Dl-Wfx" secondAttribute="leadingMargin" id="7mk-PZ-Lle"/>
-                            <constraint firstItem="aKN-Xx-VB6" firstAttribute="top" secondItem="l7l-kf-Zot" secondAttribute="bottom" constant="-110" id="Afq-wn-z1z"/>
+                            <constraint firstItem="aKN-Xx-VB6" firstAttribute="top" secondItem="l7l-kf-Zot" secondAttribute="bottom" id="Afq-wn-z1z"/>
                             <constraint firstItem="aKN-Xx-VB6" firstAttribute="top" secondItem="ten-CJ-KzN" secondAttribute="bottom" id="D9L-a9-Mzc"/>
                             <constraint firstAttribute="centerX" secondItem="fi7-Xx-olk" secondAttribute="centerX" id="HIx-Ot-rHc"/>
                             <constraint firstItem="ten-CJ-KzN" firstAttribute="leading" secondItem="a0L-Dl-Wfx" secondAttribute="leading" id="P31-uR-zGg"/>
@@ -76,6 +82,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="app_name" destination="Vg6-WN-2ax" id="O0P-Ru-DP0"/>
+                        <outlet property="btnSignUpBottomConstraint" destination="D9L-a9-Mzc" id="xlP-6K-huS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N2Z-Z5-fCx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
