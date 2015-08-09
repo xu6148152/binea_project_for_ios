@@ -30,7 +30,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7l-kf-Zot">
-                                <rect key="frame" x="0.0" y="695" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="545" width="600" height="55"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Osz-da-F8c"/>
@@ -44,7 +44,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dF4-8l-zHN">
-                                <rect key="frame" x="0.0" y="640" width="600" height="55"/>
+                                <rect key="frame" x="0.0" y="490" width="600" height="55"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Nm8-Qh-oQE"/>
@@ -62,7 +62,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="l7l-kf-Zot" secondAttribute="trailing" id="4mn-gr-oNz"/>
                             <constraint firstItem="Vg6-WN-2ax" firstAttribute="centerX" secondItem="dF4-8l-zHN" secondAttribute="centerX" id="7Vj-4j-kBO"/>
-                            <constraint firstItem="l7l-kf-Zot" firstAttribute="bottom" secondItem="aKN-Xx-VB6" secondAttribute="top" constant="150" id="9xG-i3-PEc"/>
+                            <constraint firstItem="l7l-kf-Zot" firstAttribute="bottom" secondItem="aKN-Xx-VB6" secondAttribute="top" id="9xG-i3-PEc"/>
                             <constraint firstItem="Vg6-WN-2ax" firstAttribute="top" secondItem="fi7-Xx-olk" secondAttribute="bottom" constant="5" id="FRv-KK-n8x"/>
                             <constraint firstItem="ten-CJ-KzN" firstAttribute="trailing" secondItem="l7l-kf-Zot" secondAttribute="trailing" id="K6X-ht-kZA"/>
                             <constraint firstItem="ten-CJ-KzN" firstAttribute="leading" secondItem="dF4-8l-zHN" secondAttribute="leading" id="Tq6-Dz-ekC"/>
