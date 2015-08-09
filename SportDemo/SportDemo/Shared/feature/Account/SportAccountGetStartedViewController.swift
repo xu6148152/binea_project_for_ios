@@ -33,18 +33,18 @@ class SportAccountGetStartedViewController: UIViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        if !isLoaded {
-            isLoaded = true
-            UIView.animateWithDuration(0.8, delay: 0.2, options: UIViewAnimationOptions.CurveEaseIn, animations: { () -> Void in
-                self.btnSignUpBottomConstraint.constant = 0
-                self.view.layoutIfNeeded()
-            }, completion: nil)
-        }
-        
-        if isResetPassword{
-            isResetPassword = false
-            
-        }
+//        if !isLoaded {
+//            isLoaded = true
+//            UIView.animateWithDuration(0.8, delay: 0.2, options: UIViewAnimationOptions.CurveEaseIn, animations: { () -> Void in
+//                self.btnSignUpBottomConstraint.constant = 0
+//                self.view.layoutIfNeeded()
+//            }, completion: nil)
+//        }
+//        
+//        if isResetPassword{
+//            isResetPassword = false
+//            
+//        }
     }
     
     func resetPasswordNotification(){
