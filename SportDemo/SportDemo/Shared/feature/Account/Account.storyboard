@@ -155,14 +155,11 @@
                                     <constraint firstAttribute="height" constant="1" id="gbB-JB-t2q"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mjf-7O-bML">
-                                <rect key="frame" x="150" y="150" width="300" height="300"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="54F-up-mW2" firstAttribute="trailing" secondItem="Bb2-un-bTv" secondAttribute="trailing" id="2Nl-Sg-zyt"/>
+                            <constraint firstItem="bar-Zj-exC" firstAttribute="leading" secondItem="3lH-gy-JOo" secondAttribute="leadingMargin" constant="235" id="2Xk-MT-d5Q"/>
                             <constraint firstItem="bar-Zj-exC" firstAttribute="leading" secondItem="Ayb-Fn-nQc" secondAttribute="trailing" constant="5" id="2ZJ-L4-sUe"/>
                             <constraint firstItem="Bb2-un-bTv" firstAttribute="leading" secondItem="3lH-gy-JOo" secondAttribute="leading" id="3fu-Ia-IRN"/>
                             <constraint firstAttribute="trailing" secondItem="Bb2-un-bTv" secondAttribute="trailing" id="4zB-TQ-2aI"/>
@@ -174,6 +171,7 @@
                             <constraint firstItem="54F-up-mW2" firstAttribute="top" secondItem="Bb2-un-bTv" secondAttribute="top" id="X4Q-0R-zLG"/>
                             <constraint firstItem="54F-up-mW2" firstAttribute="bottom" secondItem="zsu-pU-SeE" secondAttribute="top" id="ZTI-Pb-bZO"/>
                             <constraint firstItem="zsu-pU-SeE" firstAttribute="top" secondItem="bOQ-xE-nce" secondAttribute="bottom" constant="105" id="brc-31-vZK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bar-Zj-exC" secondAttribute="trailing" constant="234" id="fNy-1C-rrQ"/>
                             <constraint firstItem="Ayb-Fn-nQc" firstAttribute="width" secondItem="bOQ-xE-nce" secondAttribute="width" id="hjs-EV-6LF"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bOQ-xE-nce" secondAttribute="trailing" constant="15" id="vfZ-0L-UKh"/>
                             <constraint firstAttribute="centerX" secondItem="bar-Zj-exC" secondAttribute="centerX" id="yMX-hx-znr"/>
