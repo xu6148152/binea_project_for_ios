@@ -9,7 +9,17 @@
 import UIKit
 
 class ZPTextField: UITextField {
-    var placeHolderColor = UIColor()
+
+    var placeHolderColor : UIColor{
+        set{
+            var placeholder = NSAttributedString(string: "Some", attributes: [NSForegroundColorAttributeName : newValue])
+            self.attributedPlaceholder = placeholder;
+        }
+        
+        get{
+            return self.placeHolderColor
+        }
+    }
     
     convenience init(){
         self.init()
