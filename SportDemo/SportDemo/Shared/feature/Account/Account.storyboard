@@ -122,7 +122,7 @@
         <!--SIGN UP-->
         <scene sceneID="dmr-xQ-KQT">
             <objects>
-                <viewController id="vhL-38-slR" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ZPAccountRegisterViewController" id="vhL-38-slR" customClass="AccountRegisterViewController" customModule="Basketball" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TbO-Tg-c4Z"/>
                         <viewControllerLayoutGuide type="bottom" id="zsu-pU-SeE"/>
