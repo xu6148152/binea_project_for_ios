@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60330E751B7F19F80000343B /* Forza-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E6D1B7F19F80000343B /* Forza-BoldItalic.otf */; };
+		60330E761B7F19F80000343B /* Forza-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E6D1B7F19F80000343B /* Forza-BoldItalic.otf */; };
+		60330E771B7F19F80000343B /* Tungsten-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E6E1B7F19F80000343B /* Tungsten-Black.otf */; };
+		60330E781B7F19F80000343B /* Tungsten-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E6E1B7F19F80000343B /* Tungsten-Black.otf */; };
+		60330E791B7F19F80000343B /* Tungsten-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E6F1B7F19F80000343B /* Tungsten-Bold.otf */; };
+		60330E7A1B7F19F80000343B /* Tungsten-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E6F1B7F19F80000343B /* Tungsten-Bold.otf */; };
+		60330E7B1B7F19F80000343B /* Tungsten-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E701B7F19F80000343B /* Tungsten-Book.otf */; };
+		60330E7C1B7F19F80000343B /* Tungsten-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E701B7F19F80000343B /* Tungsten-Book.otf */; };
+		60330E7D1B7F19F80000343B /* Tungsten-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E711B7F19F80000343B /* Tungsten-Light.otf */; };
+		60330E7E1B7F19F80000343B /* Tungsten-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E711B7F19F80000343B /* Tungsten-Light.otf */; };
+		60330E7F1B7F19F80000343B /* Tungsten-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E721B7F19F80000343B /* Tungsten-Medium.otf */; };
+		60330E801B7F19F80000343B /* Tungsten-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E721B7F19F80000343B /* Tungsten-Medium.otf */; };
+		60330E811B7F19F80000343B /* Tungsten-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E731B7F19F80000343B /* Tungsten-Semibold.otf */; };
+		60330E821B7F19F80000343B /* Tungsten-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E731B7F19F80000343B /* Tungsten-Semibold.otf */; };
+		60330E831B7F19F80000343B /* Tungsten-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E741B7F19F80000343B /* Tungsten-XLight.otf */; };
+		60330E841B7F19F80000343B /* Tungsten-XLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E741B7F19F80000343B /* Tungsten-XLight.otf */; };
+		60330E8B1B7F1A050000343B /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60330E861B7F1A050000343B /* 1.wav */; };
+		60330E8C1B7F1A050000343B /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60330E861B7F1A050000343B /* 1.wav */; };
+		60330E8D1B7F1A050000343B /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60330E871B7F1A050000343B /* 2.wav */; };
+		60330E8E1B7F1A050000343B /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60330E871B7F1A050000343B /* 2.wav */; };
+		60330E8F1B7F1A050000343B /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60330E881B7F1A050000343B /* 3.wav */; };
+		60330E901B7F1A050000343B /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60330E881B7F1A050000343B /* 3.wav */; };
+		60330E911B7F1A050000343B /* Calibration_failed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60330E891B7F1A050000343B /* Calibration_failed.wav */; };
+		60330E921B7F1A050000343B /* Calibration_failed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60330E891B7F1A050000343B /* Calibration_failed.wav */; };
+		60330E931B7F1A050000343B /* Calibration_successful.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60330E8A1B7F1A050000343B /* Calibration_successful.wav */; };
+		60330E941B7F1A050000343B /* Calibration_successful.wav in Resources */ = {isa = PBXBuildFile; fileRef = 60330E8A1B7F1A050000343B /* Calibration_successful.wav */; };
 		605CCF7A1B76033700BF366C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CCF791B76033700BF366C /* BaseViewController.swift */; };
 		605CCF7B1B76033700BF366C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CCF791B76033700BF366C /* BaseViewController.swift */; };
 		605CCF7E1B7605FF00BF366C /* DismissBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CCF7D1B7605FF00BF366C /* DismissBarButtonItem.swift */; };
@@ -63,6 +89,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60330E6D1B7F19F80000343B /* Forza-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Forza-BoldItalic.otf"; sourceTree = "<group>"; };
+		60330E6E1B7F19F80000343B /* Tungsten-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tungsten-Black.otf"; sourceTree = "<group>"; };
+		60330E6F1B7F19F80000343B /* Tungsten-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tungsten-Bold.otf"; sourceTree = "<group>"; };
+		60330E701B7F19F80000343B /* Tungsten-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tungsten-Book.otf"; sourceTree = "<group>"; };
+		60330E711B7F19F80000343B /* Tungsten-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tungsten-Light.otf"; sourceTree = "<group>"; };
+		60330E721B7F19F80000343B /* Tungsten-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tungsten-Medium.otf"; sourceTree = "<group>"; };
+		60330E731B7F19F80000343B /* Tungsten-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tungsten-Semibold.otf"; sourceTree = "<group>"; };
+		60330E741B7F19F80000343B /* Tungsten-XLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tungsten-XLight.otf"; sourceTree = "<group>"; };
+		60330E861B7F1A050000343B /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		60330E871B7F1A050000343B /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		60330E881B7F1A050000343B /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		60330E891B7F1A050000343B /* Calibration_failed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Calibration_failed.wav; sourceTree = "<group>"; };
+		60330E8A1B7F1A050000343B /* Calibration_successful.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Calibration_successful.wav; sourceTree = "<group>"; };
 		605CCF791B76033700BF366C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		605CCF7D1B7605FF00BF366C /* DismissBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissBarButtonItem.swift; sourceTree = "<group>"; };
 		605CCF811B76071000BF366C /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
@@ -137,6 +176,33 @@
 				A5A2868B9D69E663E61F86F6 /* Pods.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60330E6C1B7F19F80000343B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				60330E6D1B7F19F80000343B /* Forza-BoldItalic.otf */,
+				60330E6E1B7F19F80000343B /* Tungsten-Black.otf */,
+				60330E6F1B7F19F80000343B /* Tungsten-Bold.otf */,
+				60330E701B7F19F80000343B /* Tungsten-Book.otf */,
+				60330E711B7F19F80000343B /* Tungsten-Light.otf */,
+				60330E721B7F19F80000343B /* Tungsten-Medium.otf */,
+				60330E731B7F19F80000343B /* Tungsten-Semibold.otf */,
+				60330E741B7F19F80000343B /* Tungsten-XLight.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		60330E851B7F1A050000343B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				60330E861B7F1A050000343B /* 1.wav */,
+				60330E871B7F1A050000343B /* 2.wav */,
+				60330E881B7F1A050000343B /* 3.wav */,
+				60330E891B7F1A050000343B /* Calibration_failed.wav */,
+				60330E8A1B7F1A050000343B /* Calibration_successful.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 		605CCF7C1B7605AA00BF366C /* view */ = {
@@ -326,6 +392,8 @@
 		60D099F01B6CCEB200FA33A6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				60330E851B7F1A050000343B /* Sounds */,
+				60330E6C1B7F19F80000343B /* Fonts */,
 				60D099F11B6CCEB200FA33A6 /* Images */,
 			);
 			path = Resources;
@@ -490,12 +558,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				60D099E51B6CB76F00FA33A6 /* Images.xcassets in Resources */,
+				60330E931B7F1A050000343B /* Calibration_successful.wav in Resources */,
+				60330E751B7F19F80000343B /* Forza-BoldItalic.otf in Resources */,
+				60330E8D1B7F1A050000343B /* 2.wav in Resources */,
+				60330E8B1B7F1A050000343B /* 1.wav in Resources */,
 				60D099F51B6CCEB200FA33A6 /* Images.xcassets in Resources */,
 				60D099E71B6CB77E00FA33A6 /* soccer.plist in Resources */,
+				60330E8F1B7F1A050000343B /* 3.wav in Resources */,
+				60330E791B7F19F80000343B /* Tungsten-Bold.otf in Resources */,
 				60D099F81B6DEC7E00FA33A6 /* Main.storyboard in Resources */,
+				60330E7F1B7F19F80000343B /* Tungsten-Medium.otf in Resources */,
+				60330E911B7F1A050000343B /* Calibration_failed.wav in Resources */,
 				60D099CA1B6CB66C00FA33A6 /* Main.storyboard in Resources */,
+				60330E771B7F19F80000343B /* Tungsten-Black.otf in Resources */,
 				60D099F31B6CCEB200FA33A6 /* Launch.storyboard in Resources */,
 				60D09A011B6DFBF400FA33A6 /* Account.storyboard in Resources */,
+				60330E7D1B7F19F80000343B /* Tungsten-Light.otf in Resources */,
+				60330E831B7F19F80000343B /* Tungsten-XLight.otf in Resources */,
+				60330E811B7F19F80000343B /* Tungsten-Semibold.otf in Resources */,
+				60330E7B1B7F19F80000343B /* Tungsten-Book.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,12 +592,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				60D099DF1B6CB68100FA33A6 /* Info.plist in Resources */,
+				60330E941B7F1A050000343B /* Calibration_successful.wav in Resources */,
+				60330E761B7F19F80000343B /* Forza-BoldItalic.otf in Resources */,
+				60330E8E1B7F1A050000343B /* 2.wav in Resources */,
+				60330E8C1B7F1A050000343B /* 1.wav in Resources */,
 				60D099F61B6CCEB200FA33A6 /* Images.xcassets in Resources */,
 				60D099DE1B6CB68100FA33A6 /* Images.xcassets in Resources */,
+				60330E901B7F1A050000343B /* 3.wav in Resources */,
+				60330E7A1B7F19F80000343B /* Tungsten-Bold.otf in Resources */,
 				60D099F91B6DEC7E00FA33A6 /* Main.storyboard in Resources */,
+				60330E801B7F19F80000343B /* Tungsten-Medium.otf in Resources */,
+				60330E921B7F1A050000343B /* Calibration_failed.wav in Resources */,
 				60D099DC1B6CB68100FA33A6 /* Main.storyboard in Resources */,
+				60330E781B7F19F80000343B /* Tungsten-Black.otf in Resources */,
 				60D099F41B6CCEB200FA33A6 /* Launch.storyboard in Resources */,
 				60D09A021B6DFBF400FA33A6 /* Account.storyboard in Resources */,
+				60330E7E1B7F19F80000343B /* Tungsten-Light.otf in Resources */,
+				60330E841B7F19F80000343B /* Tungsten-XLight.otf in Resources */,
+				60330E821B7F19F80000343B /* Tungsten-Semibold.otf in Resources */,
+				60330E7C1B7F19F80000343B /* Tungsten-Book.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
