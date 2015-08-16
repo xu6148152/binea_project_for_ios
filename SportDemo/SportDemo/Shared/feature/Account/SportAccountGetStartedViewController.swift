@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SportAccountGetStartedViewController: UIViewController {
+class SportAccountGetStartedViewController: BaseViewController {
 
     @IBOutlet weak var btnSignUpBottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var app_name: UILabel!
@@ -54,7 +54,12 @@ class SportAccountGetStartedViewController: UIViewController {
     @IBAction func signIn() {
     }
     
-    @IBAction func signUp() {
+    @IBAction func signUp(){
+        let uinavigationController = SportAccountGetStartedViewController.instanceNavigationControllerFromStoryboard("Account", viewControllerName: "ZPAccountRegisterViewControllerNav")
+
+        presentViewController(uinavigationController, animated: true, completion: nil)
+
+        
     }
     
 }

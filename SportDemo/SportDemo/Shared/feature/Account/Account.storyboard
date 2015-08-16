@@ -106,7 +106,7 @@
         <!--Navigation Controller-->
         <scene sceneID="x4Q-vN-dPa">
             <objects>
-                <navigationController storyboardIdentifier="AccountRegisterViewControllerNav" id="hpZ-gS-Ufk" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="ZPAccountRegisterViewControllerNav" id="hpZ-gS-Ufk" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1QJ-MJ-mlN">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -186,6 +186,9 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="signUp" destination="vhL-38-slR" eventType="touchUpInside" id="DST-ue-Xhf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -251,6 +254,9 @@
                                         <state key="normal" image="onboarding_facebook">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginWithFacebook" destination="vhL-38-slR" eventType="touchUpInside" id="8cZ-Gc-cyk"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Facebook" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SxE-JE-grG">
                                         <rect key="frame" x="0.0" y="41" width="267" height="19.5"/>
@@ -282,6 +288,9 @@
                                         <state key="normal" image="onboarding_wechat">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginWithWechat" destination="vhL-38-slR" eventType="touchUpInside" id="GhP-i6-VKj"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wechat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Db-Jw-NWF">
                                         <rect key="frame" x="0.0" y="41" width="267" height="19.5"/>
@@ -336,6 +345,7 @@
                         <barButtonItem key="leftBarButtonItem" image="common_topnav_x_white" id="Pw4-Kv-1xS" customClass="DismissBarButtonItem" customModule="Basketball" customModuleProvider="target"/>
                     </navigationItem>
                     <connections>
+                        <outlet property="mTextEmail" destination="c5o-Tb-ngT" id="4HP-3F-SPF"/>
                         <segue destination="9xI-P1-J4X" kind="show" id="uST-5D-6gl"/>
                     </connections>
                 </viewController>
