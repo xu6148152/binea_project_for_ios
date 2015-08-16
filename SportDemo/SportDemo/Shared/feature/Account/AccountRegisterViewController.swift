@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AccountRegisterViewController: BaseViewController {
+class AccountRegisterViewController: BaseViewController, UITextFieldDelegate {
     
     
     @IBOutlet weak var mTextEmail: UITextField!
@@ -16,11 +16,15 @@ class AccountRegisterViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        mTextEmail.delegate = self
         
     }
     @IBAction func signUp() {
         hideKeyBoard()
-        
+        performSegueWithIdentifier("ZPAccountRegisterProfileSegue", sender: self)
+//        let viewController = BaseTableViewController.instanceNavigationControllerFromStoryboard("Account", viewControllerName: "ZPAccountRegisterProfileViewController")
+//        presentViewController(viewController, animated: true, completion: nil)
+        //todo
     }
     @IBAction func loginWithFacebook() {
     }
@@ -31,5 +35,20 @@ class AccountRegisterViewController: BaseViewController {
     
     func hideKeyBoard(){
         mTextEmail.resignFirstResponder()
+    }
+    
+    @IBAction func tapToHideKeyboard(sender: AnyObject) {
+        hideKeyBoard()
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        signUp()
+        return true
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "ZPAccountRegisterProfileSegue" {
+            
+        }
     }
 }
