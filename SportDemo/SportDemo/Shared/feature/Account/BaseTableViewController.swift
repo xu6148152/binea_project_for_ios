@@ -9,7 +9,11 @@
 import Foundation
 import UIKit
 
-class BaseTableViewController : UITableViewController {
+class BaseTableViewController : UITableViewController, UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate {
+    
+}
+
+extension UIViewController{
     static func instanceFromStoryboard(storyBoardName: String, viewControllerName: String)->UIViewController{
         let storyboard = UIStoryboard(name: storyBoardName, bundle: nil)
         return storyboard.instantiateViewControllerWithIdentifier(viewControllerName) as! UIViewController

@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6017966F1B88559200E11446 /* ZPTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017966E1B88559200E11446 /* ZPTableDataSource.swift */; };
+		601796701B88559200E11446 /* ZPTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017966E1B88559200E11446 /* ZPTableDataSource.swift */; };
+		601796721B88576500E11446 /* ZPTableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601796711B88576500E11446 /* ZPTableEntity.swift */; };
+		601796731B88576500E11446 /* ZPTableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601796711B88576500E11446 /* ZPTableEntity.swift */; };
+		601796751B88582700E11446 /* ZPTableRowEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601796741B88582700E11446 /* ZPTableRowEntity.swift */; };
+		601796761B88582700E11446 /* ZPTableRowEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601796741B88582700E11446 /* ZPTableRowEntity.swift */; };
+		601796781B885A9900E11446 /* ZPTableBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601796771B885A9900E11446 /* ZPTableBaseCell.swift */; };
+		601796791B885A9900E11446 /* ZPTableBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601796771B885A9900E11446 /* ZPTableBaseCell.swift */; };
+		6017967B1B886E6100E11446 /* ZPAccountProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017967A1B886E6100E11446 /* ZPAccountProfileDataSource.swift */; };
+		6017967C1B886E6100E11446 /* ZPAccountProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017967A1B886E6100E11446 /* ZPAccountProfileDataSource.swift */; };
 		60330E751B7F19F80000343B /* Forza-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E6D1B7F19F80000343B /* Forza-BoldItalic.otf */; };
 		60330E761B7F19F80000343B /* Forza-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E6D1B7F19F80000343B /* Forza-BoldItalic.otf */; };
 		60330E771B7F19F80000343B /* Tungsten-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60330E6E1B7F19F80000343B /* Tungsten-Black.otf */; };
@@ -97,6 +107,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6017966E1B88559200E11446 /* ZPTableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPTableDataSource.swift; sourceTree = "<group>"; };
+		601796711B88576500E11446 /* ZPTableEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPTableEntity.swift; sourceTree = "<group>"; };
+		601796741B88582700E11446 /* ZPTableRowEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPTableRowEntity.swift; sourceTree = "<group>"; };
+		601796771B885A9900E11446 /* ZPTableBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPTableBaseCell.swift; sourceTree = "<group>"; };
+		6017967A1B886E6100E11446 /* ZPAccountProfileDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPAccountProfileDataSource.swift; sourceTree = "<group>"; };
 		60330E6D1B7F19F80000343B /* Forza-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Forza-BoldItalic.otf"; sourceTree = "<group>"; };
 		60330E6E1B7F19F80000343B /* Tungsten-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tungsten-Black.otf"; sourceTree = "<group>"; };
 		60330E6F1B7F19F80000343B /* Tungsten-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tungsten-Bold.otf"; sourceTree = "<group>"; };
@@ -190,6 +205,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6017966D1B88555800E11446 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6017966E1B88559200E11446 /* ZPTableDataSource.swift */,
+				601796711B88576500E11446 /* ZPTableEntity.swift */,
+				601796741B88582700E11446 /* ZPTableRowEntity.swift */,
+				601796771B885A9900E11446 /* ZPTableBaseCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		60330E6C1B7F19F80000343B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +246,7 @@
 		605CCF7C1B7605AA00BF366C /* view */ = {
 			isa = PBXGroup;
 			children = (
+				6017966D1B88555800E11446 /* TableViewCell */,
 				605CCF7D1B7605FF00BF366C /* DismissBarButtonItem.swift */,
 				60330E981B7F2A880000343B /* ZPTextField.swift */,
 			);
@@ -436,6 +463,7 @@
 		60D099FF1B6DFB7700FA33A6 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
+				6017967A1B886E6100E11446 /* ZPAccountProfileDataSource.swift */,
 			);
 			path = DataSource;
 			sourceTree = "<group>";
@@ -645,9 +673,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				60330E961B7F296B0000343B /* AccountRegisterViewController.swift in Sources */,
+				601796781B885A9900E11446 /* ZPTableBaseCell.swift in Sources */,
 				60D099FB1B6DED0F00FA33A6 /* SportMainViewController.swift in Sources */,
 				605CCF7E1B7605FF00BF366C /* DismissBarButtonItem.swift in Sources */,
 				60330E9F1B8077A90000343B /* AccountRegisterProfileViewController.swift in Sources */,
+				6017966F1B88559200E11446 /* ZPTableDataSource.swift in Sources */,
 				60330E991B7F2A880000343B /* ZPTextField.swift in Sources */,
 				60D09A041B6E06E500FA33A6 /* SportAccountGetStartedViewController.swift in Sources */,
 				60D099CE1B6CB66C00FA33A6 /* ViewController.swift in Sources */,
@@ -655,8 +685,11 @@
 				605CCF861B7607D100BF366C /* UIBarButtonItem+ZPImageName.swift in Sources */,
 				605CCF821B76071000BF366C /* Utility.swift in Sources */,
 				60330EA21B8077F30000343B /* BaseTableViewController.swift in Sources */,
+				6017967B1B886E6100E11446 /* ZPAccountProfileDataSource.swift in Sources */,
 				60D099CD1B6CB66C00FA33A6 /* Soccer.xcdatamodeld in Sources */,
+				601796721B88576500E11446 /* ZPTableEntity.swift in Sources */,
 				60D099C81B6CB66C00FA33A6 /* AppDelegate.swift in Sources */,
+				601796751B88582700E11446 /* ZPTableRowEntity.swift in Sources */,
 				605CCF7A1B76033700BF366C /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -674,9 +707,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				60330E971B7F296B0000343B /* AccountRegisterViewController.swift in Sources */,
+				601796791B885A9900E11446 /* ZPTableBaseCell.swift in Sources */,
 				60D099FC1B6DED0F00FA33A6 /* SportMainViewController.swift in Sources */,
 				605CCF7F1B7605FF00BF366C /* DismissBarButtonItem.swift in Sources */,
 				60330EA01B8077A90000343B /* AccountRegisterProfileViewController.swift in Sources */,
+				601796701B88559200E11446 /* ZPTableDataSource.swift in Sources */,
 				60330E9A1B7F2A880000343B /* ZPTextField.swift in Sources */,
 				60D09A051B6E06E500FA33A6 /* SportAccountGetStartedViewController.swift in Sources */,
 				60D099E01B6CB68100FA33A6 /* ViewController.swift in Sources */,
@@ -684,8 +719,11 @@
 				605CCF871B7607D100BF366C /* UIBarButtonItem+ZPImageName.swift in Sources */,
 				605CCF831B76071000BF366C /* Utility.swift in Sources */,
 				60330EA31B8077F30000343B /* BaseTableViewController.swift in Sources */,
+				6017967C1B886E6100E11446 /* ZPAccountProfileDataSource.swift in Sources */,
 				60D099DD1B6CB68100FA33A6 /* Basketball.xcdatamodeld in Sources */,
+				601796731B88576500E11446 /* ZPTableEntity.swift in Sources */,
 				60D099DA1B6CB68100FA33A6 /* AppDelegate.swift in Sources */,
+				601796761B88582700E11446 /* ZPTableRowEntity.swift in Sources */,
 				605CCF7B1B76033700BF366C /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

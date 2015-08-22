@@ -7,7 +7,12 @@
 //
 
 import Foundation
+import UIKit
 
 class AccountRegisterProfileViewController : BaseTableViewController{
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
 }

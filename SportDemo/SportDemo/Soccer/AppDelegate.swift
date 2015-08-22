@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        
+        setupApperance()
         self.appWindow = self.window
         return true
     }
@@ -108,6 +108,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 abort()
             }
         }
+    }
+    
+    func setupApperance(){
+        UINavigationBar.appearance().barStyle = UIBarStyle.Black
+        let barTextFont = UIFont(name: "Avenir-Medium", size: 16) ?? UIFont.systemFontOfSize(16)
+        UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: barTextFont, NSForegroundColorAttributeName: UIColor.whiteColor()]
+
+        UINavigationBar.appearance().setBackgroundImage(UIImage(named: "common_bar_background"), forBarMetrics: .Default)
+        UINavigationBar.appearance().shadowImage = UIImage(named: "common_bar_shadow")
+        UINavigationBar.appearance().tintColor = UIGlobal.ZEPPGREENCOLOR
+
+        
+        var backButtonBackgroundImage = UIImage(named: "common_topnav_back");
+        let myInsets = UIEdgeInsetsMake(13, 37, 13, 37)
+        backButtonBackgroundImage = backButtonBackgroundImage!.resizableImageWithCapInsets(myInsets)
+        
+        UIBarButtonItem.appearance().setBackButtonBackgroundImage(backButtonBackgroundImage, forState: UIControlState.Normal, barMetrics: .Default)
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSFontAttributeName: UIFont(name: "Avenir-Heavy", size: 16) ?? UIFont.systemFontOfSize(16)], forState: UIControlState.Normal)
+
     }
 
 }

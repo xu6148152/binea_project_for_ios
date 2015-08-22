@@ -6,12 +6,12 @@
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Avenir.ttc">
-            <string>Avenir-LightOblique</string>
-            <string>Avenir-LightOblique</string>
-            <string>Avenir-LightOblique</string>
             <string>Avenir-MediumOblique</string>
             <string>Avenir-LightOblique</string>
             <string>Avenir-BlackOblique</string>
+            <string>Avenir-LightOblique</string>
+            <string>Avenir-LightOblique</string>
+            <string>Avenir-LightOblique</string>
         </mutableArray>
         <mutableArray key="Tungsten-Semibold.otf">
             <string>Tungsten-Semibold</string>
@@ -340,6 +340,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="7mx-lp-cTA" secondAttribute="trailing" constant="-16" id="zTy-xn-RKr"/>
                             <constraint firstItem="54F-up-mW2" firstAttribute="leading" secondItem="Bb2-un-bTv" secondAttribute="leading" id="ziZ-V2-SA0"/>
                         </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="8pH-Mr-8H0" appends="YES" id="hRr-vO-oaq"/>
+                        </connections>
                     </view>
                     <navigationItem key="navigationItem" title="SIGN UP" id="3zJ-ja-GJa">
                         <barButtonItem key="leftBarButtonItem" image="common_topnav_x_white" id="Pw4-Kv-1xS" customClass="DismissBarButtonItem" customModule="Basketball" customModuleProvider="target"/>
