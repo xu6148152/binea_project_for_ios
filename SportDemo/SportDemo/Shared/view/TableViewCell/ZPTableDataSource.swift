@@ -9,6 +9,26 @@
 import Foundation
 import UIKit
 
-protocol ZPTableDataSource: UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate{
-    func initWithTableEntity()
+class ZPTableDataSource: UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate{
+    
+    var mEntity: ZPTableEntity
+    
+    func initWithTableEntity(){
+        
+    }
+    
+    func initTableView(){
+        
+    }
+    
+    
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 20
+    }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 
+    }
+    
 }

@@ -11,31 +11,6 @@ import UIKit
 
 class ZPTableRowEntity{
     
-    init(dictionary: NSDictionary) {
-        //todo
-        
-        rowType = dictionary["ZPRowType"] as! String
-        rowImageUrl = dictionary["ZPRowImageUrl"] as! String
-        
-//        self.rowTitle = ZPLocalizedString(dictionary[@"ZPRowTitle"]?dictionary[@"ZPRowTitle"]:@"");
-        
-        rowValue = dictionary["ZPRowValue"] as! String
-        rowUnit = dictionary["ZPRowUnit"] as! String
-        
-//        self.rowTitle2 = ZPLocalizedString(dictionary[@"ZPRowTitle2"]?dictionary[@"ZPRowTitle2"]:@"");
-        
-        rowValue2 = dictionary["ZPRowValue2"] as! String
-        rowUnit2 = dictionary["ZPRowUnit2"] as! String
-        
-        rowChartStyle = dictionary["ZPRowChartStyle"] as! String
-        rowChartArray = dictionary["ZPRowChartArray"] as! NSArray
-        
-        rowIdentifier = dictionary["ZPRowIdentifier"] as! String
-//        self.rowDetailTitle = ZPLocalizedString(dictionary[@"ZPRowDetailTitle"]?dictionary[@"ZPRowDetailTitle"]:@"");
-        
-        let rowAction = NSSelectorFromString(dictionary["ZPRowAction"] as! String);
-    }
-    
     enum ZPTextRowCellType{
         case ZPTextRowCellTypeNomal
         case ZPTextRowCellTypeEmail
@@ -49,7 +24,7 @@ class ZPTableRowEntity{
     
     
     var rowType: String = ""
-    var rowAction: Selector = nil
+    var rowAction: Selector?
     var rowImageUrl: String = ""
     
     var rowTitle: String = ""
@@ -68,24 +43,51 @@ class ZPTableRowEntity{
     
     var rowEntityFromDictionary: NSDictionary = [:]
     
+    
     static func rowEntityFromDictionary(directory: NSDictionary) -> ZPTableRowEntity{
-        return ZPTableRowEntity(dictionary: directory)
+        return ZPTableRowEntity().initWithDictionary(directory)
+    }
+    
+    func initWithDictionary(dictionary: NSDictionary) -> ZPTableRowEntity{
+        rowType = dictionary["ZPRowType"] as! String
+        rowImageUrl = dictionary["ZPRowImageUrl"] as! String
+
+        rowTitle = NSLocalizedString(dictionary["ZPRowTitle"] as! String, comment: dictionary["ZPRowTitle"] as! String);
+        
+        rowValue = dictionary["ZPRowValue"] as! String
+        rowUnit = dictionary["ZPRowUnit"] as! String
+        
+        rowTitle2 = NSLocalizedString(dictionary["ZPRowTitle2"] as! String, comment: dictionary["ZPRowTitle2"] as! String);
+        
+        rowValue2 = dictionary["ZPRowValue2"] as! String
+        rowUnit2 = dictionary["ZPRowUnit2"] as! String
+        
+        rowChartStyle = dictionary["ZPRowChartStyle"] as! String
+        rowChartArray = dictionary["ZPRowChartArray"] as! NSArray
+        
+        rowIdentifier = dictionary["ZPRowIdentifier"] as! String
+        rowDetailTitle = NSLocalizedString(dictionary["ZPRowDetailTitle"] as! String,
+            comment: dictionary["ZPRowDetailTitle"] as! String);
+        
+        rowAction = NSSelectorFromString(dictionary["ZPRowAction"] as! String);
+        
+        return self
     }
     
     func heightInTableView(tableView: UITableView) -> CGFloat{
-        let clazz: AnyClass! = NSClassFromString(rowType as String)
-        let cell = clazz as? ZPTableBaseCell
-        if cell != nil {
-
-            let height = cell?.rowHeight
-            if height >= 0{
-                return height!
-            }else{
-                let cell = tableView.dequeueReusableCellWithIdentifier(rowType as String)
-                //TODO
-                return 0
-            }
-        }
+//        let clazz: AnyClass! = NSClassFromString(rowType as String)
+//        let cell = clazz as! ZPTableBaseCell
+//        if cell != nil {
+//
+//            let height = cell?.rowHeight
+//            if height >= 0{
+//                return height!
+//            }else{
+//                let cell = tableView.dequeueReusableCellWithIdentifier(rowType as String)
+//                //TODO
+//                return 0
+//            }
+//        }
         return 0
     }
     
