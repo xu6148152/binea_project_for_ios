@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class ZPTableEntity {
     var sections: NSMutableArray = []
@@ -42,5 +43,10 @@ class ZPTableEntity {
             }
             
         }
+    }
+    
+    func cellAtIndexPath(indexPath: NSIndexPath, tableView: UITableView, widthDelegate: AnyObject) -> ZPTableBaseCell{
+        let section: ZPTableSectionEntity = sections[indexPath.section] as! ZPTableSectionEntity
+        return section.cellForRow(indexPath.row, tableView: tableView, withDelegate: widthDelegate)
     }
 }

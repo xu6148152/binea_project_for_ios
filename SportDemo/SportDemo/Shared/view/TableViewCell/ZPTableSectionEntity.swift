@@ -73,4 +73,9 @@ class ZPTableSectionEntity{
 //            }
 //        }
     }
+    
+    func cellForRow(row: NSInteger, tableView: UITableView, withDelegate: AnyObject) -> ZPTableBaseCell {
+        let rowEntity: ZPTableRowEntity = _rows[row] as! ZPTableRowEntity
+        return rowEntity.cellInTableView(tableView, withDelegate: withDelegate)
+    }
 }

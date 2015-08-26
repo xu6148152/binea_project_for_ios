@@ -9,9 +9,12 @@
 import Foundation
 import UIKit
 
-class ZPTableDataSource: UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate{
+class ZPTableDataSource: NSObject, UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate{
     
-    var mEntity: ZPTableEntity
+    var mEntity: ZPTableEntity?
+    var _delegate: AnyObject?
+    
+    
     
     func initWithTableEntity(){
         
@@ -27,8 +30,12 @@ class ZPTableDataSource: UITableViewDataSource, UITableViewDelegate, UIScrollVie
         return 20
     }
     
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
+        return mEntity!.cellAtIndexPath(indexPath, tableView: tableView, widthDelegate: _delegate!)
+    }
+    
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 
+        return 0
     }
     
 }
