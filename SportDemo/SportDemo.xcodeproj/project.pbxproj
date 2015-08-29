@@ -65,6 +65,10 @@
 		605CCF871B7607D100BF366C /* UIBarButtonItem+ZPImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CCF851B7607D100BF366C /* UIBarButtonItem+ZPImageName.swift */; };
 		605CCF891B77232A00BF366C /* UIGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CCF881B77232A00BF366C /* UIGlobal.swift */; };
 		605CCF8A1B77232A00BF366C /* UIGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605CCF881B77232A00BF366C /* UIGlobal.swift */; };
+		606970B01B9196A700E4BB1A /* ZPTablePhotoSelectedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 606970AF1B9196A700E4BB1A /* ZPTablePhotoSelectedCell.xib */; };
+		606970B11B9196A700E4BB1A /* ZPTablePhotoSelectedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 606970AF1B9196A700E4BB1A /* ZPTablePhotoSelectedCell.xib */; };
+		606970BC1B91A20400E4BB1A /* ZPTablePhotoSelectedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606970BB1B91A20400E4BB1A /* ZPTablePhotoSelectedCell.swift */; };
+		606970BD1B91A20400E4BB1A /* ZPTablePhotoSelectedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606970BB1B91A20400E4BB1A /* ZPTablePhotoSelectedCell.swift */; };
 		60D099861B6CB15D00FA33A6 /* SoccerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099851B6CB15D00FA33A6 /* SoccerTests.swift */; };
 		60D099AF1B6CB1CA00FA33A6 /* BasketballTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099AE1B6CB1CA00FA33A6 /* BasketballTests.swift */; };
 		60D099C81B6CB66C00FA33A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D099BE1B6CB66C00FA33A6 /* AppDelegate.swift */; };
@@ -140,6 +144,8 @@
 		605CCF811B76071000BF366C /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		605CCF851B7607D100BF366C /* UIBarButtonItem+ZPImageName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+ZPImageName.swift"; sourceTree = "<group>"; };
 		605CCF881B77232A00BF366C /* UIGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGlobal.swift; sourceTree = "<group>"; };
+		606970AF1B9196A700E4BB1A /* ZPTablePhotoSelectedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZPTablePhotoSelectedCell.xib; sourceTree = "<group>"; };
+		606970BB1B91A20400E4BB1A /* ZPTablePhotoSelectedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPTablePhotoSelectedCell.swift; sourceTree = "<group>"; };
 		60D099681B6CB15D00FA33A6 /* Soccer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soccer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D0997F1B6CB15D00FA33A6 /* SoccerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoccerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D099841B6CB15D00FA33A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -220,6 +226,8 @@
 				601796771B885A9900E11446 /* ZPTableBaseCell.swift */,
 				605518B21B89A6E90000B031 /* ZPSingleSelectionTableSectionEntity.swift */,
 				605518B51B89AA0A0000B031 /* ZPTableSectionEntity.swift */,
+				606970AF1B9196A700E4BB1A /* ZPTablePhotoSelectedCell.xib */,
+				606970BB1B91A20400E4BB1A /* ZPTablePhotoSelectedCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -623,6 +631,7 @@
 				60330E911B7F1A050000343B /* Calibration_failed.wav in Resources */,
 				60D099CA1B6CB66C00FA33A6 /* Main.storyboard in Resources */,
 				60330E771B7F19F80000343B /* Tungsten-Black.otf in Resources */,
+				606970B01B9196A700E4BB1A /* ZPTablePhotoSelectedCell.xib in Resources */,
 				60D099F31B6CCEB200FA33A6 /* Launch.storyboard in Resources */,
 				60D09A011B6DFBF400FA33A6 /* Account.storyboard in Resources */,
 				60330E7D1B7F19F80000343B /* Tungsten-Light.otf in Resources */,
@@ -657,6 +666,7 @@
 				60330E921B7F1A050000343B /* Calibration_failed.wav in Resources */,
 				60D099DC1B6CB68100FA33A6 /* Main.storyboard in Resources */,
 				60330E781B7F19F80000343B /* Tungsten-Black.otf in Resources */,
+				606970B11B9196A700E4BB1A /* ZPTablePhotoSelectedCell.xib in Resources */,
 				60D099F41B6CCEB200FA33A6 /* Launch.storyboard in Resources */,
 				60D09A021B6DFBF400FA33A6 /* Account.storyboard in Resources */,
 				60330E7E1B7F19F80000343B /* Tungsten-Light.otf in Resources */,
@@ -692,6 +702,7 @@
 				605518B61B89AA0A0000B031 /* ZPTableSectionEntity.swift in Sources */,
 				60D099CE1B6CB66C00FA33A6 /* ViewController.swift in Sources */,
 				605CCF891B77232A00BF366C /* UIGlobal.swift in Sources */,
+				606970BC1B91A20400E4BB1A /* ZPTablePhotoSelectedCell.swift in Sources */,
 				605CCF861B7607D100BF366C /* UIBarButtonItem+ZPImageName.swift in Sources */,
 				605CCF821B76071000BF366C /* Utility.swift in Sources */,
 				60330EA21B8077F30000343B /* BaseTableViewController.swift in Sources */,
@@ -728,6 +739,7 @@
 				605518B71B89AA0A0000B031 /* ZPTableSectionEntity.swift in Sources */,
 				60D099E01B6CB68100FA33A6 /* ViewController.swift in Sources */,
 				605CCF8A1B77232A00BF366C /* UIGlobal.swift in Sources */,
+				606970BD1B91A20400E4BB1A /* ZPTablePhotoSelectedCell.swift in Sources */,
 				605CCF871B7607D100BF366C /* UIBarButtonItem+ZPImageName.swift in Sources */,
 				605CCF831B76071000BF366C /* Utility.swift in Sources */,
 				60330EA31B8077F30000343B /* BaseTableViewController.swift in Sources */,
