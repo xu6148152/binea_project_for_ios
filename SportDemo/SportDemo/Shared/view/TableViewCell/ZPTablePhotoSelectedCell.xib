@@ -14,13 +14,13 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="136" id="lZv-fO-Hns" customClass="ZPTablePhotoSelectedCell" customModule="Basketball" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="136" id="lZv-fO-Hns" customClass="ZPTablePhotoSelectedCell" customModule="Basketball" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="501" height="136"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lZv-fO-Hns" id="NjZ-sc-M3F">
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APC-ii-XEB">
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APC-ii-XEB">
                         <rect key="frame" x="23" y="23" width="89" height="89"/>
                         <accessibility key="accessibilityConfiguration" label="avatar"/>
                         <constraints>
@@ -34,14 +34,14 @@
                         </connections>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="CHRIS FROOME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABX-Rf-gqQ">
-                        <rect key="frame" x="136" y="43" width="349" height="42"/>
+                        <rect key="frame" x="136" y="23" width="349" height="59"/>
                         <accessibility key="accessibilityConfiguration" label="full name"/>
                         <fontDescription key="fontDescription" name="Avenir-BlackOblique" family="Avenir" pointSize="18"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap picture to change" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tbF-Lc-6js">
-                        <rect key="frame" x="136" y="90" width="349" height="22"/>
+                        <rect key="frame" x="136" y="78" width="349" height="22"/>
                         <accessibility key="accessibilityConfiguration" label="tap picture desc"/>
                         <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="16"/>
                         <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
@@ -51,14 +51,14 @@
                 <color key="backgroundColor" red="0.15686274509803921" green="0.16862745098039217" blue="0.17647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
                     <constraint firstAttribute="trailingMargin" secondItem="ABX-Rf-gqQ" secondAttribute="trailing" constant="8" id="3QT-2d-MYO"/>
-                    <constraint firstItem="tbF-Lc-6js" firstAttribute="top" secondItem="ABX-Rf-gqQ" secondAttribute="bottom" constant="5" id="3gs-Ew-ecy"/>
+                    <constraint firstItem="tbF-Lc-6js" firstAttribute="top" secondItem="ABX-Rf-gqQ" secondAttribute="bottom" constant="-4" id="3gs-Ew-ecy"/>
                     <constraint firstItem="APC-ii-XEB" firstAttribute="top" secondItem="NjZ-sc-M3F" secondAttribute="topMargin" constant="15" id="NRS-F5-NO4"/>
                     <constraint firstItem="tbF-Lc-6js" firstAttribute="leading" secondItem="APC-ii-XEB" secondAttribute="trailing" constant="24" id="Npi-Mr-4TV"/>
                     <constraint firstItem="ABX-Rf-gqQ" firstAttribute="leading" secondItem="APC-ii-XEB" secondAttribute="trailing" constant="24" id="XeR-kj-9pT"/>
                     <constraint firstAttribute="bottomMargin" secondItem="APC-ii-XEB" secondAttribute="bottom" constant="15" id="Y7M-Ve-69V"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="tbF-Lc-6js" secondAttribute="bottom" constant="15" id="Zx1-TW-2Cl"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="tbF-Lc-6js" secondAttribute="bottom" constant="27" id="Zx1-TW-2Cl"/>
                     <constraint firstItem="ABX-Rf-gqQ" firstAttribute="trailing" secondItem="tbF-Lc-6js" secondAttribute="trailing" id="bPh-Pb-hQT"/>
-                    <constraint firstItem="ABX-Rf-gqQ" firstAttribute="top" secondItem="NjZ-sc-M3F" secondAttribute="topMargin" constant="35" id="qeS-cd-Wn2"/>
+                    <constraint firstItem="ABX-Rf-gqQ" firstAttribute="top" secondItem="NjZ-sc-M3F" secondAttribute="topMargin" constant="15" id="qeS-cd-Wn2"/>
                     <constraint firstItem="APC-ii-XEB" firstAttribute="leading" secondItem="NjZ-sc-M3F" secondAttribute="leadingMargin" constant="15" id="v3k-rV-dnt"/>
                 </constraints>
             </tableViewCellContentView>

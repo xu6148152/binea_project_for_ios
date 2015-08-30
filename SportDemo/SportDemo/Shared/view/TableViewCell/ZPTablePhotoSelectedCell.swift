@@ -32,7 +32,7 @@ class ZPTablePhotoSelectedCell: ZPTableBaseCell {
         
     }
     
-    static func rowHeight() -> Float{
+    static func rowHeight() -> CGFloat{
         return 110.0
     }
 }
