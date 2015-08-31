@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Avenir.ttc">
@@ -20,17 +19,17 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNU-wE-Jk8">
-                        <rect key="frame" x="8" y="8" width="304" height="27"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                         <fontDescription key="fontDescription" name="Avenir-BlackOblique" family="Avenir" pointSize="15"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailingMargin" secondItem="LNU-wE-Jk8" secondAttribute="trailing" id="YtI-KZ-ngP"/>
-                    <constraint firstItem="LNU-wE-Jk8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="f6T-lc-39B"/>
-                    <constraint firstItem="LNU-wE-Jk8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="jQU-Yt-OYW"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="LNU-wE-Jk8" secondAttribute="bottom" id="kN3-eG-iqU"/>
+                    <constraint firstAttribute="trailing" secondItem="LNU-wE-Jk8" secondAttribute="trailing" id="YtI-KZ-ngP"/>
+                    <constraint firstItem="LNU-wE-Jk8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="f6T-lc-39B"/>
+                    <constraint firstItem="LNU-wE-Jk8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="jQU-Yt-OYW"/>
+                    <constraint firstAttribute="bottom" secondItem="LNU-wE-Jk8" secondAttribute="bottom" id="kN3-eG-iqU"/>
                 </constraints>
             </tableViewCellContentView>
             <color key="backgroundColor" red="0.11764705882352941" green="0.12549019607843137" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

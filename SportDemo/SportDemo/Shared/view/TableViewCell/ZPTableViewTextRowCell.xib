@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Avenir.ttc">
@@ -21,19 +20,19 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FirstName" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="AXy-AK-h7U">
-                        <rect key="frame" x="23" y="23" width="76" height="69"/>
+                        <rect key="frame" x="15" y="15" width="76" height="78"/>
                         <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="16"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Chris" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dwd-r3-z5L">
-                        <rect key="frame" x="114" y="8" width="349" height="92"/>
+                        <rect key="frame" x="106" y="0.0" width="365" height="108"/>
                         <color key="textColor" red="0.81960784313725488" green="0.93333333333333335" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <fontDescription key="fontDescription" name="Avenir-BlackOblique" family="Avenir" pointSize="16"/>
                         <textInputTraits key="textInputTraits"/>
                     </textField>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LMB-TC-xx3">
-                        <rect key="frame" x="8" y="99" width="470" height="1"/>
+                        <rect key="frame" x="0.0" y="107" width="486" height="1"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="Aqw-gu-PSI"/>
@@ -42,16 +41,16 @@
                 </subviews>
                 <color key="backgroundColor" red="0.15686274509803921" green="0.16862745098039217" blue="0.17647058823529413" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
-                    <constraint firstAttribute="trailingMargin" secondItem="LMB-TC-xx3" secondAttribute="trailing" id="0Wz-ef-eHR"/>
-                    <constraint firstItem="AXy-AK-h7U" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="D2g-Se-aE0"/>
-                    <constraint firstItem="LMB-TC-xx3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="GiC-4U-o6Y"/>
-                    <constraint firstItem="dwd-r3-z5L" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="LLR-vq-24d"/>
+                    <constraint firstAttribute="trailing" secondItem="LMB-TC-xx3" secondAttribute="trailing" id="0Wz-ef-eHR"/>
+                    <constraint firstItem="AXy-AK-h7U" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="D2g-Se-aE0"/>
+                    <constraint firstItem="LMB-TC-xx3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="GiC-4U-o6Y"/>
                     <constraint firstItem="dwd-r3-z5L" firstAttribute="leading" secondItem="AXy-AK-h7U" secondAttribute="trailing" constant="15" id="bE0-1L-tZa"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="dwd-r3-z5L" secondAttribute="trailing" constant="15" id="fko-4u-dF5"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="dwd-r3-z5L" secondAttribute="bottom" id="h27-pF-KtK"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="LMB-TC-xx3" secondAttribute="bottom" id="olY-SY-Jx8"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="AXy-AK-h7U" secondAttribute="bottom" constant="8" id="uBe-2M-1Uu"/>
-                    <constraint firstItem="AXy-AK-h7U" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="15" id="vbz-c2-U6o"/>
+                    <constraint firstAttribute="trailing" secondItem="dwd-r3-z5L" secondAttribute="trailing" constant="15" id="fko-4u-dF5"/>
+                    <constraint firstAttribute="bottom" secondItem="dwd-r3-z5L" secondAttribute="bottom" id="h27-pF-KtK"/>
+                    <constraint firstAttribute="bottom" secondItem="LMB-TC-xx3" secondAttribute="bottom" id="olY-SY-Jx8"/>
+                    <constraint firstAttribute="bottom" secondItem="AXy-AK-h7U" secondAttribute="bottom" constant="15" id="uBe-2M-1Uu"/>
+                    <constraint firstItem="AXy-AK-h7U" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="vbz-c2-U6o"/>
+                    <constraint firstItem="dwd-r3-z5L" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yqA-oz-Vqf"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
