@@ -164,6 +164,7 @@
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c5o-Tb-ngT">
                                                 <rect key="frame" x="90" y="55" width="480" height="62"/>
                                                 <accessibility key="accessibilityConfiguration" label="email value"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Avenir-LightOblique" family="Avenir" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
                                             </textField>

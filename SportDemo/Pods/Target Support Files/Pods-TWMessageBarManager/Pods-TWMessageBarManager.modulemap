@@ -1,0 +1,6 @@
+framework module TWMessageBarManager {
+  umbrella header "Pods-TWMessageBarManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
