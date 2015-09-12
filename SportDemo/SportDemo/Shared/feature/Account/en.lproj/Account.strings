@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; accessibilityLabel = "wechat"; ObjectID = "2Db-Jw-NWF"; */
+"2Db-Jw-NWF.accessibilityLabel" = "wechat";
+
+/* Class = "UILabel"; text = "Wechat"; ObjectID = "2Db-Jw-NWF"; */
+"2Db-Jw-NWF.text" = "Wechat";
+
+/* Class = "UINavigationItem"; title = "SIGN UP"; ObjectID = "3zJ-ja-GJa"; */
+"3zJ-ja-GJa.title" = "SIGN UP";
+
+/* Class = "UINavigationItem"; title = "My Account"; ObjectID = "5m5-Vc-O1q"; */
+"5m5-Vc-O1q.title" = "My Account";
+
+/* Class = "UILabel"; accessibilityLabel = "facebook"; ObjectID = "SxE-JE-grG"; */
+"SxE-JE-grG.accessibilityLabel" = "facebook";
+
+/* Class = "UILabel"; text = "Facebook"; ObjectID = "SxE-JE-grG"; */
+"SxE-JE-grG.text" = "Facebook";
+
+/* Class = "UIButton"; accessibilityLabel = "facebook_button"; ObjectID = "VBd-AR-SiM"; */
+"VBd-AR-SiM.accessibilityLabel" = "facebook_button";
+
+/* Class = "UILabel"; accessibilityLabel = "title"; ObjectID = "VXk-hY-DUJ"; */
+"VXk-hY-DUJ.accessibilityLabel" = "title";
+
+/* Class = "UILabel"; text = "Create a account"; ObjectID = "VXk-hY-DUJ"; */
+"VXk-hY-DUJ.text" = "Create a account";
+
+/* Class = "UILabel"; text = "SOCCER"; ObjectID = "Vg6-WN-2ax"; */
+"Vg6-WN-2ax.text" = "SOCCER";
+
+/* Class = "UIButton"; accessibilityLabel = "wechat_button"; ObjectID = "Yhc-CY-x9w"; */
+"Yhc-CY-x9w.accessibilityLabel" = "wechat_button";
+
+/* Class = "UILabel"; text = "or Log in with"; ObjectID = "bar-Zj-exC"; */
+"bar-Zj-exC.text" = "or Log in with";
+
+/* Class = "UITextField"; accessibilityLabel = "email value"; ObjectID = "c5o-Tb-ngT"; */
+"c5o-Tb-ngT.accessibilityLabel" = "email value";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "dF4-8l-zHN"; */
+"dF4-8l-zHN.normalTitle" = "SIGN UP";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "hCa-pn-M4y"; */
+"hCa-pn-M4y.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "l7l-kf-Zot"; */
+"l7l-kf-Zot.normalTitle" = "SIGN IN";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "yKT-VR-lGu"; */
+"yKT-VR-lGu.normalTitle" = "SIGN UP";
