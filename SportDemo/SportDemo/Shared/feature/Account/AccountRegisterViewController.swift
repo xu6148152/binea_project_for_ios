@@ -21,7 +21,7 @@ class AccountRegisterViewController: BaseViewController, UITextFieldDelegate {
     }
     @IBAction func signUp() {
         hideKeyBoard()
-        let strEmail = mTextEmail.text.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+        let strEmail = mTextEmail.text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
         if !NSStringValidation.isValidEmail(strEmail){
             print("is not valid email")
             UIGlobal.showErrorMessage(NSLocalizedString("str_common_invalid_email", comment: "str_common_invalid_email"))

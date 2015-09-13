@@ -37,7 +37,7 @@ class ZPTablePhotoSelectedCell: ZPTableBaseCell,  UIActionSheetDelegate{
                 actionSheet.addButtonWithTitle(NSStringLocalization.StringLocalization("str_my_account_camera"))
             }
             
-            actionSheet.showFromTabBar((UIApplication.sharedApplication().keyWindow?.rootViewController as? UITabBarController)?.tabBar)
+            actionSheet.showFromTabBar(((UIApplication.sharedApplication().keyWindow?.rootViewController as? UITabBarController)?.tabBar)!)
             
         }
     }
@@ -64,7 +64,7 @@ class ZPTablePhotoSelectedCell: ZPTableBaseCell,  UIActionSheetDelegate{
     }
     
     func takePhotoWithSourceType(source: NSNumber){
-        let type = UIImagePickerControllerSourceType(rawValue: source.integerValue)
+        UIImagePickerControllerSourceType(rawValue: source.integerValue)
         
         
     }
