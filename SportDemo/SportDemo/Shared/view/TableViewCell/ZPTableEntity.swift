@@ -17,7 +17,6 @@ class ZPTableEntity {
     }
     
     static func tableEntityFromPlist(pListFile: String) -> ZPTableEntity{
-        var dictory: NSDictionary = NSDictionary()
         var array: NSArray = NSArray()
         if let path = NSBundle.mainBundle().pathForResource(pListFile, ofType: "plist"){
             array = NSMutableArray(contentsOfFile: path)!
