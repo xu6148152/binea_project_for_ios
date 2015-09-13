@@ -28,13 +28,13 @@ class AccountRegisterProfileViewController : BaseTableViewController{
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         if indexPath.section == 0{
-            let cell = self.tableView.dequeueReusableCellWithIdentifier("ZPTablePhotoSelectedCell", forIndexPath: indexPath) as! UITableViewCell
+            let cell = self.tableView.dequeueReusableCellWithIdentifier("ZPTablePhotoSelectedCell", forIndexPath: indexPath) 
             return cell
         }else {
             if indexPath.section == 2 && indexPath.row == 3{
-                return self.tableView.dequeueReusableCellWithIdentifier("ZPTableViewButtonCell", forIndexPath: indexPath) as! UITableViewCell
+                return self.tableView.dequeueReusableCellWithIdentifier("ZPTableViewButtonCell", forIndexPath: indexPath) 
             }
-            return self.tableView.dequeueReusableCellWithIdentifier("ZPTableViewTextRowCell", forIndexPath: indexPath) as! UITableViewCell
+            return self.tableView.dequeueReusableCellWithIdentifier("ZPTableViewTextRowCell", forIndexPath: indexPath) 
         }
 
     }

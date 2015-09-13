@@ -12,7 +12,7 @@ class ZPTextField: UITextField {
 
     var placeHolderColor : UIColor{
         set{
-            var placeholder = NSAttributedString(string: "Some", attributes: [NSForegroundColorAttributeName : newValue])
+            let placeholder = NSAttributedString(string: "Some", attributes: [NSForegroundColorAttributeName : newValue])
             self.attributedPlaceholder = placeholder;
         }
         
@@ -26,7 +26,7 @@ class ZPTextField: UITextField {
         commitDefault()
     }
 
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

@@ -18,7 +18,7 @@ class SportAccountGetStartedViewController: BaseViewController {
     static func instanceFromStoryboard() -> UIViewController {
         let storyBoard = UIStoryboard(name: "Account", bundle: nil)
         
-        return storyBoard.instantiateViewControllerWithIdentifier("SportAccountGetStartedViewController") as! UIViewController
+        return storyBoard.instantiateViewControllerWithIdentifier("SportAccountGetStartedViewController") 
     }
     
     override func viewDidLoad() {
