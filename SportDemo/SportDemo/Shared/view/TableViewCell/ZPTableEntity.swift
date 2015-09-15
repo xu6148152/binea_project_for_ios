@@ -34,6 +34,7 @@ class ZPTableEntity {
     }
     
     func initWithArray(array: NSArray){
+        
         for dict in array{
             if let di = dict as? NSDictionary{
                 if di["ZPSectionType"] as! String == "ZPSingleSelectionTableSectionEntity"{

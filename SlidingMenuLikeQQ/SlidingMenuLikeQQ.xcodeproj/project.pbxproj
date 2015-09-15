@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6017EA4D1BA67E96007649F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017EA4C1BA67E96007649F0 /* AppDelegate.swift */; };
+		6017EA4F1BA67E96007649F0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017EA4E1BA67E96007649F0 /* HomeViewController.swift */; };
+		6017EA521BA67E96007649F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6017EA501BA67E96007649F0 /* Main.storyboard */; };
+		6017EA541BA67E96007649F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6017EA531BA67E96007649F0 /* Assets.xcassets */; };
+		6017EA571BA67E96007649F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6017EA551BA67E96007649F0 /* LaunchScreen.storyboard */; };
+		6017EA5F1BA69A58007649F0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017EA5E1BA69A58007649F0 /* Common.swift */; settings = {ASSET_TAGS = (); }; };
+		6017EA611BA69CD2007649F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017EA601BA69CD2007649F0 /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6017EA631BA6B9AF007649F0 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017EA621BA6B9AF007649F0 /* LeftViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6017EA651BA6B9E3007649F0 /* OtherPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017EA641BA6B9E3007649F0 /* OtherPageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6017EA6C1BA6C364007649F0 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017EA6A1BA6C364007649F0 /* MainTabBarController.swift */; settings = {ASSET_TAGS = (); }; };
+		6017EA6D1BA6C364007649F0 /* MainTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6017EA6B1BA6C364007649F0 /* MainTabBarController.xib */; settings = {ASSET_TAGS = (); }; };
+		6017EA6F1BA6D17C007649F0 /* SwiftColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017EA6E1BA6D17C007649F0 /* SwiftColors.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6017EA491BA67E96007649F0 /* SlidingMenuLikeQQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingMenuLikeQQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6017EA4C1BA67E96007649F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6017EA4E1BA67E96007649F0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6017EA511BA67E96007649F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6017EA531BA67E96007649F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6017EA561BA67E96007649F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6017EA581BA67E96007649F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6017EA5E1BA69A58007649F0 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		6017EA601BA69CD2007649F0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6017EA621BA6B9AF007649F0 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		6017EA641BA6B9E3007649F0 /* OtherPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherPageViewController.swift; sourceTree = "<group>"; };
+		6017EA6A1BA6C364007649F0 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		6017EA6B1BA6C364007649F0 /* MainTabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTabBarController.xib; sourceTree = "<group>"; };
+		6017EA6E1BA6D17C007649F0 /* SwiftColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftColors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6017EA461BA67E96007649F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6017EA401BA67E96007649F0 = {
+			isa = PBXGroup;
+			children = (
+				6017EA4B1BA67E96007649F0 /* SlidingMenuLikeQQ */,
+				6017EA4A1BA67E96007649F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6017EA4A1BA67E96007649F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6017EA491BA67E96007649F0 /* SlidingMenuLikeQQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6017EA4B1BA67E96007649F0 /* SlidingMenuLikeQQ */ = {
+			isa = PBXGroup;
+			children = (
+				6017EA4C1BA67E96007649F0 /* AppDelegate.swift */,
+				6017EA4E1BA67E96007649F0 /* HomeViewController.swift */,
+				6017EA501BA67E96007649F0 /* Main.storyboard */,
+				6017EA531BA67E96007649F0 /* Assets.xcassets */,
+				6017EA551BA67E96007649F0 /* LaunchScreen.storyboard */,
+				6017EA581BA67E96007649F0 /* Info.plist */,
+				6017EA5E1BA69A58007649F0 /* Common.swift */,
+				6017EA601BA69CD2007649F0 /* ViewController.swift */,
+				6017EA621BA6B9AF007649F0 /* LeftViewController.swift */,
+				6017EA641BA6B9E3007649F0 /* OtherPageViewController.swift */,
+				6017EA6A1BA6C364007649F0 /* MainTabBarController.swift */,
+				6017EA6B1BA6C364007649F0 /* MainTabBarController.xib */,
+				6017EA6E1BA6D17C007649F0 /* SwiftColors.swift */,
+			);
+			path = SlidingMenuLikeQQ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6017EA481BA67E96007649F0 /* SlidingMenuLikeQQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6017EA5B1BA67E96007649F0 /* Build configuration list for PBXNativeTarget "SlidingMenuLikeQQ" */;
+			buildPhases = (
+				6017EA451BA67E96007649F0 /* Sources */,
+				6017EA461BA67E96007649F0 /* Frameworks */,
+				6017EA471BA67E96007649F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingMenuLikeQQ;
+			productName = SlidingMenuLikeQQ;
+			productReference = 6017EA491BA67E96007649F0 /* SlidingMenuLikeQQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6017EA411BA67E96007649F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Binea Xu";
+				TargetAttributes = {
+					6017EA481BA67E96007649F0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 6017EA441BA67E96007649F0 /* Build configuration list for PBXProject "SlidingMenuLikeQQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6017EA401BA67E96007649F0;
+			productRefGroup = 6017EA4A1BA67E96007649F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6017EA481BA67E96007649F0 /* SlidingMenuLikeQQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6017EA471BA67E96007649F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6017EA571BA67E96007649F0 /* LaunchScreen.storyboard in Resources */,
+				6017EA541BA67E96007649F0 /* Assets.xcassets in Resources */,
+				6017EA6D1BA6C364007649F0 /* MainTabBarController.xib in Resources */,
+				6017EA521BA67E96007649F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6017EA451BA67E96007649F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6017EA651BA6B9E3007649F0 /* OtherPageViewController.swift in Sources */,
+				6017EA4F1BA67E96007649F0 /* HomeViewController.swift in Sources */,
+				6017EA5F1BA69A58007649F0 /* Common.swift in Sources */,
+				6017EA6F1BA6D17C007649F0 /* SwiftColors.swift in Sources */,
+				6017EA6C1BA6C364007649F0 /* MainTabBarController.swift in Sources */,
+				6017EA611BA69CD2007649F0 /* ViewController.swift in Sources */,
+				6017EA631BA6B9AF007649F0 /* LeftViewController.swift in Sources */,
+				6017EA4D1BA67E96007649F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6017EA501BA67E96007649F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6017EA511BA67E96007649F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6017EA551BA67E96007649F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6017EA561BA67E96007649F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6017EA591BA67E96007649F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6017EA5A1BA67E96007649F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6017EA5C1BA67E96007649F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlidingMenuLikeQQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binea.SlidingMenuLikeQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6017EA5D1BA67E96007649F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlidingMenuLikeQQ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.binea.SlidingMenuLikeQQ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6017EA441BA67E96007649F0 /* Build configuration list for PBXProject "SlidingMenuLikeQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6017EA591BA67E96007649F0 /* Debug */,
+				6017EA5A1BA67E96007649F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6017EA5B1BA67E96007649F0 /* Build configuration list for PBXNativeTarget "SlidingMenuLikeQQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6017EA5C1BA67E96007649F0 /* Debug */,
+				6017EA5D1BA67E96007649F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6017EA411BA67E96007649F0 /* Project object */;
+}
