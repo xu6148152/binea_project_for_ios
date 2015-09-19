@@ -13,7 +13,6 @@ class AccountRegisterProfileViewController : BaseTableViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.tableView.registerNib(UINib(nibName: "ZPTablePhotoSelectedCell", bundle: nil), forCellReuseIdentifier: "ZPTablePhotoSelectedCell")
         self.tableView.registerNib(UINib(nibName: "ZPTableViewTextRowCell", bundle: nil), forCellReuseIdentifier: "ZPTableViewTextRowCell")
         self.tableView.registerNib(UINib(nibName: "ZPTableViewButtonCell", bundle: nil), forCellReuseIdentifier: "ZPTableViewButtonCell")

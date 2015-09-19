@@ -8,20 +8,20 @@
 
 import Foundation
 import UIKit
+import ObjectiveC
+
 
 class DismissUIBarButtonItem{
+    static var kUIBarButtonItemImageNameKey = ""
     
-    var imageName: NSString = ""{
-        didSet{
-            
+    var imageName: String{
+        get{
+            return objc_getAssociatedObject(self, &kUIBarButtonItemImageNameKey)
         }
         
-        willSet{
-            
+        set{
+            objc_setAssociatedObject(self, &kUIBarButtonItemImageNameKey, newValue, objc_AssociationPolicy(OBJC_ASSOCIATION_RETAIN_NONATOMIC))
         }
     }
 
-    func setImageName(imageName: NSString){
-        self.imageName = imageName
-    }
 }
