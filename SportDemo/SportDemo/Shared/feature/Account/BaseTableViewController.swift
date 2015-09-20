@@ -10,34 +10,30 @@ import Foundation
 import UIKit
 
 class BaseTableViewController : UITableViewController{
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-        self.navigationItem.leftBarButtonItem?.title = " "
-    }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        configureNavigation()
+    }
     func configureNavigation(){
-        var items = NSMutableArray()
+//        var items = NSMutableArray()
+//        
+//        if (self.navigationItem.leftBarButtonItems != nil) {
+//            items.addObjectsFromArray(self.navigationItem.leftBarButtonItems!)
+//        }
+//        if (self.navigationItem.rightBarButtonItems != nil) {
+//            items.addObjectsFromArray(self.navigationItem.rightBarButtonItems!)
+//        }
         
-        if (self.navigationItem.leftBarButtonItems != nil) {
-            items.addObjectsFromArray(self.navigationItem.leftBarButtonItems!)
-        }
-        if (self.navigationItem.rightBarButtonItems != nil) {
-            items.addObjectsFromArray(self.navigationItem.rightBarButtonItems!)
-        }
+//        for var item in items {
+//            let tmpItem = item as! UIBarButtonItem
+//            tmpItem.image = UIImage(named: tmpItem.image)
+//        }
         
-        for var item in items {
-            let tmpItem = item as! UIBarButtonItem
-            tmpItem.image = UIImage(named: tmpItem.image)
-        }
-        for (UIBarButtonItem *item in items) {
-            if (item.imageName) {
-                item.image = [[UIImage imageNamed:item.imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-            }
-        }
-        
-        self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
-        self.navigationItem.backBarButtonItem.accessibilityLabel = @"top back";
-        self.navigationItem.accessibilityLabel = @"top title";
+        self.navigationItem.backBarButtonItem = UIBarButtonItem.init(title: "", style: UIBarButtonItemStyle.Plain, target: nil, action: nil)
+//        self.navigationItem.backBarButtonItem?.accessibilityLabel = "top back"
+//        self.navigationItem.accessibilityLabel = "top title"
+
     }
 }
 

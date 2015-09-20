@@ -10,6 +10,8 @@ import Foundation
 import UIKit
 import MBProgressHUD.MBProgressHUD
 import TWMessageBarManager.TWMessageBarManager
+import AVFoundation
+import AssetsLibrary
 
 class UIGlobal{
     
@@ -95,5 +97,47 @@ class UIGlobal{
         hub.show(false)
         
         return hub
+    }
+    
+    static func showImagePickerControllerInViewController(viewController: UIViewController?, addtionalConstruction: ((picker: UIImagePickerController) -> Void), didFinishPickingMedia: (info: NSDictionary) -> Void, didCancel: () -> Void){
+        
+        guard let _ = viewController else{
+            return
+        }
+        
+        let imagePicker = UIImagePickerController()
+        imagePicker.modalPresentationStyle = UIModalPresentationStyle.CurrentContext
+        imagePicker.allowsEditing = true
+        
+        addtionalConstruction(picker: imagePicker)
+        
+        
+        
+        
+    }
+    
+    static func authImagePick(picker: UIImagePickerController, isShowAlert: Bool) -> Bool {
+        var authPass = true
+        var message = ""
+        
+        if picker.sourceType == UIImagePickerControllerSourceType.Camera {
+            let authorizationStatus = AVCaptureDevice.authorizationStatusForMediaType(AVMediaTypeVideo)
+
+            if AVAuthorizationStatus.Restricted == authorizationStatus || AVAuthorizationStatus.Denied == authorizationStatus {
+                message = NSLocalizedString("str_var_camera_access_denied_alert_message", comment: "str_var_camera_access_denied_alert_message").uppercaseString
+                authPass = false
+            }
+        } else {
+            let status = ALAssetsLibrary.authorizationStatus()
+            if status == ALAuthorizationStatus.Restricted || status == ALAuthorizationStatus.Denied {
+                message = NSLocalizedString("str_var_photolib_access_denied_alert_message", comment: "str_var_photolib_access_denied_alert_message")
+                authPass = false
+            }
+        }
+        
+        if !authPass && isShowAlert {
+            
+        }
+        return false
     }
 }

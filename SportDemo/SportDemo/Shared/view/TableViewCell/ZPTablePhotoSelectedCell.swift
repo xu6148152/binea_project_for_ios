@@ -64,7 +64,7 @@ class ZPTablePhotoSelectedCell: ZPTableBaseCell,  UIActionSheetDelegate{
     }
     
     func takePhotoWithSourceType(source: NSNumber){
-        UIImagePickerControllerSourceType(rawValue: source.integerValue)
+        let sourceType = UIImagePickerControllerSourceType(rawValue: source.integerValue)
         
         
     }

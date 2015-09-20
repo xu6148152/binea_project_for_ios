@@ -14,14 +14,14 @@ import ObjectiveC
 class DismissUIBarButtonItem{
     static var kUIBarButtonItemImageNameKey = ""
     
-    var imageName: String{
-        get{
-            return objc_getAssociatedObject(self, &kUIBarButtonItemImageNameKey)
-        }
-        
-        set{
-            objc_setAssociatedObject(self, &kUIBarButtonItemImageNameKey, newValue, objc_AssociationPolicy(OBJC_ASSOCIATION_RETAIN_NONATOMIC))
-        }
-    }
+//    var imageName: String{
+//        get{
+//            return objc_getAssociatedObject(self, kUIBarButtonItemImageNameKey)
+//        }
+//        
+//        set{
+//            objc_setAssociatedObject(self, &kUIBarButtonItemImageNameKey, newValue, objc_AssociationPolicy(OBJC_ASSOCIATION_RETAIN_NONATOMIC))
+//        }
+//    }
 
 }

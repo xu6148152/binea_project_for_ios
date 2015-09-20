@@ -1,0 +1,6 @@
+framework module KLCPopup {
+  umbrella header "Pods-KLCPopup-umbrella.h"
+
+  export *
+  module * { export * }
+}

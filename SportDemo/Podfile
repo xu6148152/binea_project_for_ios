@@ -7,7 +7,13 @@ pod 'Alamofire', '~> 2.0'
 #network
 pod 'RestKit', '~> 0.24.0'
 
+pod 'SDWebImage', '~>3.7'
+
 #ui
 pod 'MBProgressHUD', '~> 0.9.1'
 
 pod 'TWMessageBarManager'
+
+pod 'KLCPopup', :git => 'https://github.com/jmascia/KLCPopup.git'
+
+pod 'TTTAttributedLabel'

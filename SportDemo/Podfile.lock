@@ -3,6 +3,7 @@ PODS:
   - Alamofire (2.0.0)
   - ISO8601DateFormatterValueTransformer (0.6.1):
     - RKValueTransformers (~> 1.1.0)
+  - KLCPopup (1.1)
   - MBProgressHUD (0.9.1)
   - RestKit (0.24.1):
     - RestKit/Core (= 0.24.1)
@@ -24,25 +25,44 @@ PODS:
   - RestKit/Support (0.24.1):
     - TransitionKit (~> 2.1.0)
   - RKValueTransformers (1.1.2)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
   - SOCKit (1.1)
   - TransitionKit (2.1.1)
+  - TTTAttributedLabel (1.13.4)
   - TWMessageBarManager (1.7.2)
 
 DEPENDENCIES:
   - Alamofire (~> 2.0)
+  - KLCPopup (from `https://github.com/jmascia/KLCPopup.git`)
   - MBProgressHUD (~> 0.9.1)
   - RestKit (~> 0.24.0)
+  - SDWebImage (~> 3.7)
+  - TTTAttributedLabel
   - TWMessageBarManager
+
+EXTERNAL SOURCES:
+  KLCPopup:
+    :git: https://github.com/jmascia/KLCPopup.git
+
+CHECKOUT OPTIONS:
+  KLCPopup:
+    :commit: ba17c211cbfa62761fddb58201f9381126ca1fe7
+    :git: https://github.com/jmascia/KLCPopup.git
 
 SPEC CHECKSUMS:
   AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
   Alamofire: 2f13548b29d25a58ecd91c9225fb51493e2b782b
   ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  KLCPopup: f233d3334c4808d1087ede03b3ae72fc3fc8a2aa
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   RestKit: 1987b5efef289c6b27bd980714d6ca48d3871b78
   RKValueTransformers: 66ac5e4f077fdbe3496e792d89eeff4c3eb67701
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   SOCKit: c7376ac262bea9115b8f749358f762522a47d392
   TransitionKit: 3a14b6acc7cf2d1dd3e454e24dbad1cfab9a1ef1
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
   TWMessageBarManager: e7adc066ee425174f5dee79473fce913b1cd1662
 
 COCOAPODS: 0.37.2
