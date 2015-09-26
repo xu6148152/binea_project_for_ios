@@ -17,3 +17,7 @@ pod 'TWMessageBarManager'
 pod 'KLCPopup', :git => 'https://github.com/jmascia/KLCPopup.git'
 
 pod 'TTTAttributedLabel'
+
+pod 'PureLayout'
+
+pod 'BlocksKit', '~> 2.2.5'

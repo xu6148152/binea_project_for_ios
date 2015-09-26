@@ -54,7 +54,7 @@
                         <color key="titleShadowColor" red="0.49803921568627452" green="0.49803921568627452" blue="0.49803921568627452" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
                 </button>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gqj-Yr-Wu1">
+                <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gqj-Yr-Wu1">
                     <rect key="frame" x="15" y="148" width="570" height="342"/>
                     <subviews>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m6k-Ds-h09">
@@ -99,7 +99,10 @@
             </constraints>
             <connections>
                 <outlet property="actionButton" destination="sjb-mP-w1N" id="Fnd-uR-WbF"/>
+                <outlet property="actionButtonHeightConstraint" destination="781-bO-PFk" id="2bR-1M-ht6"/>
                 <outlet property="cancelButton" destination="qhZ-y0-gA2" id="4ze-aN-Btk"/>
+                <outlet property="cancelButtonHeightConstraint" destination="TBl-5A-8ou" id="kzV-OF-dnW"/>
+                <outlet property="containerView" destination="Gqj-Yr-Wu1" id="x8z-4m-2GK"/>
                 <outlet property="imageView" destination="m6k-Ds-h09" id="xMH-Dj-am3"/>
                 <outlet property="message" destination="5fR-J4-a6S" id="cYL-2T-uEC"/>
                 <outlet property="title" destination="SsX-ze-y65" id="sjk-e6-3C8"/>

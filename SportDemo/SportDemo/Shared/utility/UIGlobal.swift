@@ -12,6 +12,7 @@ import MBProgressHUD.MBProgressHUD
 import TWMessageBarManager.TWMessageBarManager
 import AVFoundation
 import AssetsLibrary
+import BlocksKit
 
 class UIGlobal{
     
@@ -105,13 +106,50 @@ class UIGlobal{
             return
         }
         
+        let statusBarHidden = UIApplication.sharedApplication().statusBarHidden
+        
         let imagePicker = UIImagePickerController()
         imagePicker.modalPresentationStyle = UIModalPresentationStyle.CurrentContext
         imagePicker.allowsEditing = true
         
         addtionalConstruction(picker: imagePicker)
         
+        if !authImagePick(imagePicker, isShowAlert: true) {
+            return;
+        }
         
+        let time: NSTimeInterval = 2.0
+        let delay = dispatch_time(DISPATCH_TIME_NOW,
+            Int64(time * Double(NSEC_PER_SEC)))
+        
+        var hideImagePickerController = {
+            imagePicker.dismissViewControllerAnimated(true, completion: nil)
+            if statusBarHidden {
+                dispatch_after(delay, dispatch_get_main_queue(), { () -> Void in
+                    UIApplication.sharedApplication().setStatusBarHidden(true, withAnimation: UIStatusBarAnimation.Fade)
+                })
+            }
+        }
+        
+        
+        
+//        imagePickerController.bk_didCancelBlock = ^(UIImagePickerController *picker) {
+//            ZPInvokeBlock(hideImagePickerController);
+//            ZPInvokeBlock(didCancel);
+//        };
+//        imagePickerController.bk_didFinishPickingMediaBlock = ^(UIImagePickerController *picker, NSDictionary *meta) {
+//            ZPInvokeBlock(hideImagePickerController);
+//            ZPInvokeBlock(didFinishPickingMedia, meta);
+//        };
+//        
+//        
+//        
+//        [ZPControl presentViewController:imagePickerController
+//            animated:YES
+//            modalPresentationStyle:IPAD_REGULAR ? UIModalPresentationCurrentContext : UIModalPresentationFullScreen
+//            completion:^{
+//            
+//            }];
         
         
     }
@@ -136,8 +174,20 @@ class UIGlobal{
         }
         
         if !authPass && isShowAlert {
-            
+            ZPDialogPopoverView.showDialog(NSLocalizedString("str_camera_access_denied_alert_title", comment: "str_camera_access_denied_alert_title"), message: message, customView: nil, actionTitle: NSLocalizedString("str_camera_access_denied_action_title", comment: "str_camera_access_denied_action_title"), actionBlock: {
+                    UIGlobal.openSettingsApp()
+                
+                }, cancelTitle: NSLocalizedString("str_cancel", comment: "str_cancel"), cancelBlock: {}, buttonType: ZPPopoverButtonType.ZPPopoverButtonNegative)
         }
-        return false
+        return authPass
+    }
+    
+    static func openSettingsApp() {
+        if let url = NSURL(string: UIApplicationOpenSettingsURLString) {
+            if UIApplication.sharedApplication().canOpenURL(url) {
+                UIApplication.sharedApplication().openURL(url)
+            }
+        }
+        
     }
 }

@@ -50,9 +50,11 @@ code_sign() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'AFNetworking.framework'
   install_framework 'Alamofire.framework'
+  install_framework 'BlocksKit.framework'
   install_framework 'ISO8601DateFormatterValueTransformer.framework'
   install_framework 'KLCPopup.framework'
   install_framework 'MBProgressHUD.framework'
+  install_framework 'PureLayout.framework'
   install_framework 'RKValueTransformers.framework'
   install_framework 'RestKit.framework'
   install_framework 'SDWebImage.framework'
@@ -64,9 +66,11 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'AFNetworking.framework'
   install_framework 'Alamofire.framework'
+  install_framework 'BlocksKit.framework'
   install_framework 'ISO8601DateFormatterValueTransformer.framework'
   install_framework 'KLCPopup.framework'
   install_framework 'MBProgressHUD.framework'
+  install_framework 'PureLayout.framework'
   install_framework 'RKValueTransformers.framework'
   install_framework 'RestKit.framework'
   install_framework 'SDWebImage.framework'
