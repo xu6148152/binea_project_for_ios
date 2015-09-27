@@ -48,4 +48,25 @@ extension UIViewController {
         }
     }
     
+    func closeAnimatedWithCompleteAction(completion: (() -> Void)?) {
+        if self.navigationController != nil && self.navigationController?.viewControllers.count > 1 {
+            self.navigationController?.popViewControllerAnimated(true)
+        }else if((self.presentingViewController) != nil) {
+            if self.navigationController != nil {
+                self.navigationController?.resignFirstResponder()
+            }
+            
+            let isFromSheet = ZEPP.IPAD_REGULAR && self.navigationController != nil && navigationController?.modalPresentationStyle == UIModalPresentationStyle.FormSheet
+            
+            dismissViewControllerAnimated(true){
+                completion!()
+                
+                if isFromSheet {
+                    ZPControl.topViewController().viewWillAppear(true)
+                    ZPControl.topViewController().viewDidAppear(true)
+                }
+            }
+        }
+    }
+    
 }

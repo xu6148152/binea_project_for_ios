@@ -152,6 +152,8 @@ class UIGlobal{
 //            }];
         
         
+        
+        
     }
     
     static func authImagePick(picker: UIImagePickerController, isShowAlert: Bool) -> Bool {
