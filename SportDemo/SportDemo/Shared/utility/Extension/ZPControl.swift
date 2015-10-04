@@ -52,37 +52,23 @@ class ZPControl{
         
         if canPresent {
             if withDismissButton {
-                //modifyViewControllerLeftItem2Close
+                modifyViewControllerLeftItem2Close(viewControllerToPresent, withDimissAction: dismissAction!)
             }
             
             viewControllerToPresent.modalPresentationStyle = modalPresentationStyle
-            
-            //topviewcontroller
-            
-            
-            
-            
-        }
-        if (canPresent) {
-            if (withDismissButton) {
-                self.modifyViewControllerLeftItem2Close(viewControllerToPresent, withDimissAction: dismissAction!)
-            }
-            
-            viewControllerToPresent.modalPresentationStyle = modalPresentationStyle;
-            
-            let topViewController = self.topViewController()
-            
-            if (ZEPP.IPAD_REGULAR && topViewController.navigationController!.splitViewController != nil) {
-                topViewController.navigationController?.splitViewController?.presentViewController(viewControllerToPresent, animated: animated, completion: completion)
+            let top = topViewController()
+            if top.navigationController?.splitViewController != nil && ZEPP.IPAD_REGULAR {
+                top.navigationController?.splitViewController?.presentViewController(viewControllerToPresent, animated: animated, completion: completion)
             }else{
-                if (topViewController.navigationController != nil) {
-                    topViewController.navigationController?.presentViewController(viewControllerToPresent, animated: animated, completion: completion)
-                } else {
-                    topViewController.presentViewController(viewControllerToPresent, animated: animated, completion: completion)
+                if top.navigationController != nil {
+                    top.navigationController?.presentViewController(viewControllerToPresent, animated: animated, completion: completion)
+                }else {
+                    top.presentViewController(viewControllerToPresent, animated: animated, completion: completion)
                 }
             }
-        }else{
             
+        }else {
+            presentViewController(viewControllerToPresent, animated: animated, modalPresentationStyle: modalPresentationStyle, withDismissButton: withDismissButton, completion: completion, dismissAction: dismissAction)
         }
         
     }
@@ -90,11 +76,13 @@ class ZPControl{
     
     static func modifyViewControllerLeftItem2Close(viewController: UIViewController, withDimissAction: () -> Void) {
         if viewController.isKindOfClass(UINavigationController) {
-            
+            modifyNavigationViewControllerLeftItem2Close(viewController as! UINavigationController, withDismissAction: withDimissAction)
+        }else if viewController.isKindOfClass(UISplitViewController) {
+            modifySpliteMasterViewControllerLeftImte2Close(viewController as! UISplitViewController, withDismissAction: withDimissAction)
         }
     }
     
-    static func modifyNavigationViewControllerLeftItem2Close(nav: UINavigationController, withDismissAction: () -> Bool) {
+    static func modifyNavigationViewControllerLeftItem2Close(nav: UINavigationController, withDismissAction: () -> Void) {
         var array: NSMutableArray
         
         if let items = nav.visibleViewController?.navigationItem.leftBarButtonItems {
@@ -117,6 +105,13 @@ class ZPControl{
             item.setDismissActionBlock(withDismissAction)
             array.insertObject(item, atIndex: 0)
             nav.visibleViewController?.navigationItem.leftBarButtonItems = array as NSArray as? [UIBarButtonItem]
+        }
+    }
+    
+    static func modifySpliteMasterViewControllerLeftImte2Close(splite: UISplitViewController, withDismissAction: () -> Void) {
+        let master = splite.viewControllers.first
+        if master?.isKindOfClass(UINavigationController) != nil {
+            modifyNavigationViewControllerLeftItem2Close(master as! UINavigationController, withDismissAction: withDismissAction)
         }
     }
 }

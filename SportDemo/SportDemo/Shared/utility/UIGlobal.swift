@@ -132,7 +132,9 @@ class UIGlobal{
         }
         
         
+        ZPControl.presentViewController(imagePicker, animated: true, modalPresentationStyle: ZEPP.IPAD_REGULAR ? UIModalPresentationStyle.CurrentContext : UIModalPresentationStyle.FullScreen) {
         
+        }
 //        imagePickerController.bk_didCancelBlock = ^(UIImagePickerController *picker) {
 //            ZPInvokeBlock(hideImagePickerController);
 //            ZPInvokeBlock(didCancel);

@@ -28,6 +28,7 @@ class ZPTablePhotoSelectedCell: ZPTableBaseCell,  UIActionSheetDelegate{
         // Configure the view for the selected state
     }
     
+    
     @IBAction func profilePhotoDidClick(sender: UIButton) {
         dispatch_async(dispatch_get_main_queue()) {
             

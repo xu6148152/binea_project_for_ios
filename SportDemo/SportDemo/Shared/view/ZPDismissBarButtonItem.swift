@@ -11,7 +11,7 @@ import Foundation
 
 class ZPDismissBarButtonItem: UIBarButtonItem{
     
-    typealias ZPCompleteAction = (() -> Bool)?
+    typealias ZPCompleteAction = (() -> Void)?
     
     var dismissAction: ZPCompleteAction
     
@@ -49,9 +49,8 @@ class ZPDismissBarButtonItem: UIBarButtonItem{
     
     func dismissController() {
         if dismissAction != nil {
-            if dismissAction!() {
-                self.dismissAction = nil
-            }
+            dismissAction!()
+            self.dismissAction = nil
             
         }else {
             ZPControl.topViewController().closeAnimatedWithCompleteAction(nil)
