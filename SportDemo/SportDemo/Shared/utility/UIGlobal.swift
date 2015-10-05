@@ -100,7 +100,7 @@ class UIGlobal{
         return hub
     }
     
-    static func showImagePickerControllerInViewController(viewController: UIViewController?, addtionalConstruction: ((picker: UIImagePickerController) -> Void), didFinishPickingMedia: (info: NSDictionary) -> Void, didCancel: () -> Void){
+    static func showImagePickerControllerInViewController(viewController: UIViewController?, addtionalConstruction: ((picker: UIImagePickerController) -> Void), didFinishPickingMedia: (info: NSDictionary) -> Void, didCancel: (() -> Void)?){
         
         guard let _ = viewController else{
             return

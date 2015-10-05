@@ -27,7 +27,8 @@ class AccountRegisterProfileViewController : BaseTableViewController{
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         if indexPath.section == 0{
-            let cell = self.tableView.dequeueReusableCellWithIdentifier("ZPTablePhotoSelectedCell", forIndexPath: indexPath) 
+            let cell = self.tableView.dequeueReusableCellWithIdentifier("ZPTablePhotoSelectedCell", forIndexPath: indexPath)
+            (cell as! ZPTablePhotoSelectedCell).setCurrentViewController(self)
             return cell
         }else {
             if indexPath.section == 2 && indexPath.row == 3{
