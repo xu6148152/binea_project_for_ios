@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601526141BC4FA2F00A78EBC /* ZPTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601526131BC4FA2F00A78EBC /* ZPTableHeaderView.swift */; settings = {ASSET_TAGS = (); }; };
+		601526151BC4FA2F00A78EBC /* ZPTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601526131BC4FA2F00A78EBC /* ZPTableHeaderView.swift */; settings = {ASSET_TAGS = (); }; };
 		6017966F1B88559200E11446 /* ZPTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017966E1B88559200E11446 /* ZPTableDataSource.swift */; };
 		601796701B88559200E11446 /* ZPTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6017966E1B88559200E11446 /* ZPTableDataSource.swift */; };
 		601796721B88576500E11446 /* ZPTableEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601796711B88576500E11446 /* ZPTableEntity.swift */; };
@@ -144,6 +146,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		601526131BC4FA2F00A78EBC /* ZPTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPTableHeaderView.swift; sourceTree = "<group>"; };
 		6017966E1B88559200E11446 /* ZPTableDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPTableDataSource.swift; sourceTree = "<group>"; };
 		601796711B88576500E11446 /* ZPTableEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPTableEntity.swift; sourceTree = "<group>"; };
 		601796741B88582700E11446 /* ZPTableRowEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPTableRowEntity.swift; sourceTree = "<group>"; };
@@ -331,6 +334,7 @@
 				6045C72B1B98350A00F1901A /* Soccer-Bridging-Header.h */,
 				6045C72C1B98350A00F1901A /* Basketball-Bridging-Header.h */,
 				605FBB921BB7C61400EC1260 /* ZPDismissBarButtonItem.swift */,
+				601526131BC4FA2F00A78EBC /* ZPTableHeaderView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -831,6 +835,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601526141BC4FA2F00A78EBC /* ZPTableHeaderView.swift in Sources */,
 				60330E961B7F296B0000343B /* AccountRegisterViewController.swift in Sources */,
 				601796781B885A9900E11446 /* ZPTableBaseCell.swift in Sources */,
 				6045C7231B98219500F1901A /* NSStringValidation.swift in Sources */,
@@ -878,6 +883,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601526151BC4FA2F00A78EBC /* ZPTableHeaderView.swift in Sources */,
 				60330E971B7F296B0000343B /* AccountRegisterViewController.swift in Sources */,
 				601796791B885A9900E11446 /* ZPTableBaseCell.swift in Sources */,
 				6045C7241B98219500F1901A /* NSStringValidation.swift in Sources */,

@@ -75,6 +75,10 @@ class AccountRegisterProfileViewController : BaseTableViewController{
         return nil
     }
     
+    override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        
+    }
+    
     
     
     

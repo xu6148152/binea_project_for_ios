@@ -194,4 +194,8 @@ class UIGlobal{
         }
         
     }
+    
+    static func backgroundColor() -> UIColor {
+        return UIColorFromARGB(0x1E2022)
+    }
 }
