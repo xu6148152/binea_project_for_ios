@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		602DAF6A1BC8B75200407FB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DAF691BC8B75200407FB4 /* AppDelegate.swift */; };
-		602DAF6C1BC8B75200407FB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DAF6B1BC8B75200407FB4 /* ViewController.swift */; };
+		602DAF6C1BC8B75200407FB4 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DAF6B1BC8B75200407FB4 /* MealViewController.swift */; };
 		602DAF6F1BC8B75200407FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602DAF6D1BC8B75200407FB4 /* Main.storyboard */; };
 		602DAF721BC8B75200407FB4 /* RatingControl.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 602DAF701BC8B75200407FB4 /* RatingControl.xcdatamodeld */; };
 		602DAF741BC8B75200407FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602DAF731BC8B75200407FB4 /* Assets.xcassets */; };
 		602DAF771BC8B75200407FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 602DAF751BC8B75200407FB4 /* LaunchScreen.storyboard */; };
 		602DAF7F1BC8B78600407FB4 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DAF7E1BC8B78600407FB4 /* RatingControl.swift */; settings = {ASSET_TAGS = (); }; };
+		602DAF811BC9174300407FB4 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DAF801BC9174300407FB4 /* Meal.swift */; settings = {ASSET_TAGS = (); }; };
+		602DAF831BC9194F00407FB4 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DAF821BC9194F00407FB4 /* MealTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		602DAF851BC91C8700407FB4 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602DAF841BC91C8700407FB4 /* MealTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		602DAF661BC8B75200407FB4 /* RatingControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatingControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		602DAF691BC8B75200407FB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		602DAF6B1BC8B75200407FB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		602DAF6B1BC8B75200407FB4 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
 		602DAF6E1BC8B75200407FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		602DAF711BC8B75200407FB4 /* RatingControl.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RatingControl.xcdatamodel; sourceTree = "<group>"; };
 		602DAF731BC8B75200407FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		602DAF761BC8B75200407FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		602DAF781BC8B75200407FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		602DAF7E1BC8B78600407FB4 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		602DAF801BC9174300407FB4 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		602DAF821BC9194F00407FB4 /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		602DAF841BC91C8700407FB4 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				602DAF691BC8B75200407FB4 /* AppDelegate.swift */,
-				602DAF6B1BC8B75200407FB4 /* ViewController.swift */,
+				602DAF6B1BC8B75200407FB4 /* MealViewController.swift */,
 				602DAF7E1BC8B78600407FB4 /* RatingControl.swift */,
 				602DAF6D1BC8B75200407FB4 /* Main.storyboard */,
 				602DAF731BC8B75200407FB4 /* Assets.xcassets */,
 				602DAF751BC8B75200407FB4 /* LaunchScreen.storyboard */,
 				602DAF781BC8B75200407FB4 /* Info.plist */,
 				602DAF701BC8B75200407FB4 /* RatingControl.xcdatamodeld */,
+				602DAF801BC9174300407FB4 /* Meal.swift */,
+				602DAF821BC9194F00407FB4 /* MealTableViewCell.swift */,
+				602DAF841BC91C8700407FB4 /* MealTableViewController.swift */,
 			);
 			path = RatingControl;
 			sourceTree = "<group>";
@@ -140,8 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602DAF811BC9174300407FB4 /* Meal.swift in Sources */,
 				602DAF7F1BC8B78600407FB4 /* RatingControl.swift in Sources */,
-				602DAF6C1BC8B75200407FB4 /* ViewController.swift in Sources */,
+				602DAF851BC91C8700407FB4 /* MealTableViewController.swift in Sources */,
+				602DAF831BC9194F00407FB4 /* MealTableViewCell.swift in Sources */,
+				602DAF6C1BC8B75200407FB4 /* MealViewController.swift in Sources */,
 				602DAF721BC8B75200407FB4 /* RatingControl.xcdatamodeld in Sources */,
 				602DAF6A1BC8B75200407FB4 /* AppDelegate.swift in Sources */,
 			);
@@ -205,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -244,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,6 +305,7 @@
 				602DAF7D1BC8B75200407FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
