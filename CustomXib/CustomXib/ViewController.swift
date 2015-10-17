@@ -12,6 +12,9 @@ class ViewController: UIViewController {
 
     var mainViewTopSpaceLayoutConstraintValue: CGFloat!
     var mainViewOriginY: CGFloat!
+    var hiddenTopViewDefaultPosition: CGFloat!
+    var xiaoyunOriginX: CGFloat!
+    var middleImageViewHasBeenEnlarged = true
     
     @IBOutlet weak var mainView: UIView!
     
@@ -39,11 +42,33 @@ class ViewController: UIViewController {
         mainViewTopSpaceLayoutConstraintValue = topLayoutConstraintOfMainView.constant
         mainViewOriginY = mainView.frame.origin.y
         panGesture.addTarget(self, action: "pan:")
-
+        hiddenTopViewDefaultPosition = -(hiddenTopView.frame.height / 2)
+//        topLayoutConstraintOfHiddenTopView.constant = hiddenTopViewDefaultPosition
+        rightDistanceOfXiaoyun.constant = 60
+        xiaoyunOriginX = xiaoyunView.frame.origin.x
+        makeDayunRolling()
         // Do any additional setup after loading the view, typically from a nib.
 //        let button = NSBundle.mainBundle().loadNibNamed("RoundButton", owner: self, options: nil).first as! UIButton
 //        button.center = self.view.center
 //        self.view.addSubview(button)
+    }
+    
+    func makeDayunRolling() {
+        leftDistanceOfDayun.constant -= 30
+        UIView.animateWithDuration(0.8, delay: 0, options: UIViewAnimationOptions.CurveLinear, animations: { () -> Void in
+            self.dayunView.layoutIfNeeded()
+            }) { (success) -> Void in
+                if success {
+                    self.leftDistanceOfDayun.constant += 30
+                    UIView.animateWithDuration(0.8, delay: 0.5, options: UIViewAnimationOptions.CurveLinear, animations: { () -> Void in
+                        self.dayunView.layoutIfNeeded()
+                        }, completion: { (success) -> Void in
+                            if success {
+                                self.makeDayunRolling()
+                            }
+                    })
+                }
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -57,8 +82,12 @@ class ViewController: UIViewController {
     
     func pan(recongnizer: UIPanGestureRecognizer) {
         if panGesture.state == UIGestureRecognizerState.Ended {
+            middleImageViewHasBeenEnlarged = true
             UIView.animateWithDuration(0.4, delay: 0, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
                     recongnizer.view?.frame.origin.y = self.mainViewOriginY
+                
+                    //make animated views move
+                    self.hiddenTopView.frame.origin.y = self.hiddenTopViewDefaultPosition
                 }, completion: { (success) -> Void in
                     if success {
                         self.topLayoutConstraintOfMainView.constant = self.mainViewTopSpaceLayoutConstraintValue
