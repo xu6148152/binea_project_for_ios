@@ -97,6 +97,42 @@ class ViewController: UIViewController {
         }
         let y = panGesture.translationInView(self.view).y
         topLayoutConstraintOfMainView.constant = mainViewTopSpaceLayoutConstraintValue + y
+        
+        //move xiaoyun when pull
+        let xiaoyunDistance = 60 - y*0.5
+        if xiaoyunDistance > -48 {
+            rightDistanceOfXiaoyun.constant = xiaoyunDistance
+        }else {
+            //slow down xiaoyun's speed when it needs
+            rightDistanceOfXiaoyun.constant = -sqrt(-xiaoyunDistance - 47) - 47
+        }
+        
+        //move HiddenTopView when pull
+        let distance = 0.3 * y + hiddenTopViewDefaultPosition
+        if distance < 1 {
+            topLayoutConstraintOfHiddenTopView.constant = distance
+        }else {
+            //slow down HiddenTopView's speed when it needs
+            topLayoutConstraintOfHiddenTopView.constant = sqrt(distance)
+        }
+        
+        if mainViewTopSpaceLayoutConstraintValue + y > hiddenTopView.frame.height * 1.2 {
+            if middleImageViewHasBeenEnlarged {
+                enlargeMiddleImageView()
+                middleImageViewHasBeenEnlarged = false
+            }
+        }
+    }
+    
+    //enlarge middle image
+    func enlargeMiddleImageView() {
+        UIView.animateWithDuration(0.5, delay: 0.2, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
+            self.hiddenBannerView.transform = CGAffineTransformMakeScale(1.1, 1.1)
+            }) { (success) -> Void in
+                if success {
+                    return
+                }
+        }
     }
 
 }
