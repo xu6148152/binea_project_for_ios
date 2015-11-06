@@ -12,7 +12,8 @@
 		60515E311BDF2D8000610CE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60515E2F1BDF2D8000610CE1 /* Main.storyboard */; };
 		60515E331BDF2D8000610CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60515E321BDF2D8000610CE1 /* Assets.xcassets */; };
 		60515E361BDF2D8000610CE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60515E341BDF2D8000610CE1 /* LaunchScreen.storyboard */; };
-		60515E421BDF4EB800610CE1 /* StarWarsUIViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60515E411BDF4EB800610CE1 /* StarWarsUIViewAnimator.swift */; settings = {ASSET_TAGS = (); }; };
+		60515E421BDF4EB800610CE1 /* StarWarsUIViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60515E411BDF4EB800610CE1 /* StarWarsUIViewAnimator.swift */; };
+		609EF8831BEC941D00C3F147 /* StarWarsUIDynamicAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609EF8821BEC941D00C3F147 /* StarWarsUIDynamicAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		60515E351BDF2D8000610CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60515E371BDF2D8000610CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60515E411BDF4EB800610CE1 /* StarWarsUIViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsUIViewAnimator.swift; sourceTree = "<group>"; };
+		609EF8821BEC941D00C3F147 /* StarWarsUIDynamicAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsUIDynamicAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		60515E3F1BDF2E3400610CE1 /* StarWarsUIDynamicAnimator */ = {
 			isa = PBXGroup;
 			children = (
+				609EF8821BEC941D00C3F147 /* StarWarsUIDynamicAnimator.swift */,
 			);
 			path = StarWarsUIDynamicAnimator;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				60515E2E1BDF2D8000610CE1 /* ViewController.swift in Sources */,
 				60515E2C1BDF2D8000610CE1 /* AppDelegate.swift in Sources */,
 				60515E421BDF4EB800610CE1 /* StarWarsUIViewAnimator.swift in Sources */,
+				609EF8831BEC941D00C3F147 /* StarWarsUIDynamicAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +325,7 @@
 				60515E3C1BDF2D8000610CE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
